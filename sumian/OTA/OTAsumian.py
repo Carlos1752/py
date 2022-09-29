@@ -157,14 +157,14 @@ if __name__ == '__main__':
     msg_to = '1462940090@qq.com'  # 收件邮箱地址
     content = '本轮测试完成，请尽快查看测试数据和相关log，有问题尽快反馈给开发大佬们哦'  # 邮件正文
         # 没有附件可以省略不写
-    file_path1 = r'G:\py\sumian\OTA\OTA.log'  # 添加附件的路径
-    file_name1 = 'OTA.log'  # 添加附件的名字
+    file_path1 = r'G:\py\sumian\OTA\OTA.log'  # 添加附件1的路径
+    file_name1 = 'OTA.log'  # 添加附件1的名字
 
-    file_path2 = r'G:\py\sumian\OTA\OTA_Result.txt'
-    file_name2 = '运行结果汇总'
+    file_path2 = r'G:\py\sumian\OTA\OTA_Result.txt'  #添加附件2的路径
+    file_name2 = '运行结果汇总' #添加附件2的名字
 
-    file_path3 = r'G:\py\sumian\OTA\20220927181802.png'
-    file_name3 = '帅哥.png'
+    file_path3 = r'G:\py\sumian\OTA\20220927181802.png' #添加附件中图片的路径
+    file_name3 = '帅哥.png' #添加图片的名字
 
         # 1.发送带附件的qq邮件
     sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_path3, file_name1, file_name2, file_name3)
