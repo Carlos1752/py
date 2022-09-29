@@ -110,7 +110,7 @@ start()
 print('运行完成')
 time.sleep(3)
 
-def sendEmail(msg_from, passwd, subject, msg_to, content, file_path='', file_name=''):
+def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_path3='', file_name1='', file_name2='', file_name3=''):
         # 创建一个带附件的实例
     message = MIMEMultipart()
     message['Subject'] = subject
@@ -124,7 +124,7 @@ def sendEmail(msg_from, passwd, subject, msg_to, content, file_path='', file_nam
             # 构造附件
         att = MIMEText(open(file_path, 'rb').read(), 'base64', 'gb2312')
         att["Content-Type"] = 'application/octet-stream'
-        att.add_header("Content-Disposition", 'attachment', filename=file_name)
+        att.add_header("Content-Disposition", 'attachment', filename=file_name1)
         message.attach(att)
             # 构造附件2
         att_txt2 = MIMEText(open(file_path2, 'rb').read(), 'base64', 'gb2312')
@@ -167,7 +167,7 @@ if __name__ == '__main__':
     file_name3 = '帅哥.png'
 
         # 1.发送带附件的qq邮件
-    sendEmail(msg_from, passwd, subject, msg_to, content, file_path, file_name)
+    sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_path3, file_name1, file_name2, file_name3)
         # 2.发送不带附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content)
 
