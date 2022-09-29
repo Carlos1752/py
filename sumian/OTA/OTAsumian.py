@@ -164,7 +164,7 @@ if __name__ == '__main__':
     file_name2 = '运行结果汇总' #添加附件2的名字
 
     file_path3 = r'G:\py\sumian\OTA\20220927181802.png' #添加附件中图片的路径
-    file_name3 = '帅哥.png' #添加图片的名字
+    file_name3 = '亮剑.png' #添加图片的名字
 
         # 1.发送带附件的qq邮件
     sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_path3, file_name1, file_name2, file_name3)
