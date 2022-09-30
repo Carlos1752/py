@@ -193,5 +193,5 @@ if __name__ == '__main__':
               file_name3)
     # 2.发送不带附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content)
-    # 3.发送只带图片附件的qq邮件
+     # 3.发送只带图片附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content, file_path3, file_name3)
