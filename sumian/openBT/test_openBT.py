@@ -14,8 +14,8 @@ import win32api
 
 # log日志配置
 
-# logging.basicConfig(level=logging.DEBUG,filename='G:\py\sumian\openBT\openBT.log',
-#                     format='%(asctime)s  --%(filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #打印出时间、行数、信息
+# logging.basicConfig(level=logging.DEBUG,filename='G:\py\sumian\openBT\openBT.log', format='%(asctime)s  --%(
+# filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #打印出时间、行数、信息
 
 CON_LOG = './yaml/log.conf'
 logging.config.fileConfig(CON_LOG)
@@ -193,5 +193,5 @@ if __name__ == '__main__':
               file_name3)
     # 2.发送不带附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content)
-     # 3.发送只带图片附件的qq邮件
+    # 3.发送只带图片附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content, file_path3, file_name3)
