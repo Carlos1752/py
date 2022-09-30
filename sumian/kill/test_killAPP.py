@@ -62,7 +62,7 @@ while i < cycle_index:
     start = datetime.datetime.now()  #计时开始
     time.sleep(15)
 
-    # os.system('adb shell input tap ')#操作一次点击关闭，如果有的话就会生效
+    os.system('adb shell input tap 960 525')#操作一次点击关闭，如果有的话就会生效
     watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text() #获取设备连接状态
 
 

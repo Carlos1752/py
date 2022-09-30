@@ -67,7 +67,7 @@ while i < cycle_index:
     logging.info("开启蓝牙")
     start = datetime.datetime.now()  # 计时开始
     time.sleep(15)
-
+    os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
 
     if watch_battery == '已连接':  # 判断设备如果是“已连接”状态
@@ -79,6 +79,7 @@ while i < cycle_index:
 
     else:
         time.sleep(20)
+        os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
         if watch_battery == '已连接':
             time.sleep(1)
@@ -88,8 +89,7 @@ while i < cycle_index:
 
         else:
             time.sleep(13)
-            os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
-            time.sleep(2)
+
             watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
             if watch_battery == '已连接':
                 time.sleep(1)
@@ -97,6 +97,8 @@ while i < cycle_index:
                 print("太慢了小趴菜")
 
             else:
+                time.sleep(1)
+                os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
                 time.sleep(1)
                 logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
                 print("失败了")
@@ -123,7 +125,7 @@ def start():
 
 start()
 print('运行完成')
-time.sleep(3)
+time.sleep(10)
 
 
 def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_name1='', file_name2='',
