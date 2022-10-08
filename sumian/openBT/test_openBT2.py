@@ -68,125 +68,67 @@ while i < cycle_index:
     start = datetime.datetime.now()  # 计时开始
     time.sleep(15)
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
-    watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
     try:
-        # while watch_battery == '已连接':
-            print("我get到了~")
-    except:
-        def start():
-            cmd = "G:\\py\\sumian\\openBT\\openBT_processLog.bat"  # 执行运行bat脚本
-            win32api.ShellExecute(0, 'open', cmd, '', '', 1)  # 前台打开
-
-        start()
-        print('运行完成')
-        time.sleep(10)
-
-        def sendEmail2(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_name1='',
-                      file_name2='', file_path3='', file_name3=''):
-            # 创建一个带附件的实例
-            message = MIMEMultipart()
-            message['Subject'] = subject
-            message['From'] = msg_from
-            message['To'] = msg_to
-
-            # 邮件正文内容
-            message.attach(MIMEText(content, 'plain', 'utf-8'))
-
-            if file_path1 != '' and file_path2 != '' and file_path3 != '':
-                # 构造附件1
-                att_txt1 = MIMEText(open(file_path1, 'rb').read(), 'base64', 'gb2312')
-                att_txt1["Content-Type"] = 'application/octet-stream'
-                att_txt1.add_header("Content-Disposition", 'attachment', filename=file_name1)
-                message.attach(att_txt1)
-                # 构造附件2
-                att_txt2 = MIMEText(open(file_path2, 'rb').read(), 'base64', 'gb2312')
-                att_txt2["Content-Type"] = 'application/octet-stream'
-                att_txt2.add_header("Content-Disposition", 'attachment', filename=file_name2)
-                message.attach(att_txt2)
-                # 构造图片1
-                att_img = MIMEText(open(file_path3, 'rb').read(), 'base64', 'gb2312')
-                att_img["Content-Type"] = 'application/octet-stream'
-                att_img.add_header("Content-Disposition", 'attachment', filename=file_name3)
-                message.attach(att_img)
-
-            server = smtplib.SMTP_SSL('smtp.qq.com', 465)
-            server.login(msg_from, passwd)
-            try:
-                server.sendmail2(msg_from, msg_to, message.as_string())
-                server.close()
-                print('本轮测试完成，请尽快查看测试数据和相关log，有问题尽快反馈给开发大佬们哦！')
-            except:
-                print('发送失败')
-
-
-        if __name__ == '__main__':
-            msg_from = '937643549@qq.com'  # 你的邮箱地址
-            passwd = 'irylqahuuqxtbfbj'  # 你邮箱的授权码
-            subject = '蓝牙开关重连压测报告'  # 邮件主题
-            msg_to = '1462940090@qq.com'  # 收件邮箱地址
-            content = '测试结果：' \
-                      '1、本轮测试完成，请尽快查看测试数据和相关log' \
-                      '2、相关数据汇总请手动执行' \
-                      '3、有问题尽快反馈给开发大佬们哦'  # 邮件正文
-            # 没有附件可以省略不写
-            file_path1 = r'G:\py\sumian\openBT\openBT.log'  # 添加附件的路径
-            file_name1 = '运动log.log'  # 添加附件的名字
-
-            file_path2 = r'G:\py\sumian\openBT\openBT_Result.txt'  # 添加附件的路径
-            file_name2 = '结果汇总.txt'  # 添加附件的名字
-
-            file_path3 = r'G:\py\sumian\openBT\15916825353233762.jpg'  # 添加图片的路径
-            file_name3 = '小美女.jpg'  # 设置图片附件的名字
-
-            # 1.发送带附件的qq邮件
-            sendEmail2(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_name1, file_name2)
-
-        print("异常了，发送邮件")
-
-
-
-
-    if watch_battery == '已连接':  # 判断设备如果是“已连接”状态
-        time.sleep(1)
-        logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
-        # end1 = datetime.datetime.now() #快速连接的计时
-        # logging.info(end1-start)
-
-
-    else:
-        time.sleep(20)
-        os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        if watch_battery == '已连接':
+        while watch_battery == '已连接':
             time.sleep(1)
-            logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
-            # end2 = datetime.datetime.now()
-            # logging.info(end2-start)
+            logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
+            # end1 = datetime.datetime.now() #快速连接的计时
+            # logging.info(end1-start)
+            print("我get到了~")
+            break
 
-        else:
-            time.sleep(13)
-
+        while watch_battery == '连接中':
+            print("我还在连接中")
+            time.sleep(10)
+            os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
             watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
             if watch_battery == '已连接':
+                print("222")
                 time.sleep(1)
-                logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
-                print("太慢了小趴菜")
+                logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
+                break
+
 
             else:
-                time.sleep(1)
-                os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
-                time.sleep(1)
-                logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
-                print("失败了")
-                os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
-                logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
+                print("33333")
+                time.sleep(10)
+                watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                if watch_battery == '已连接':
+                    time.sleep(1)
+                    logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
+                    print("太慢了小趴菜")
+                    break
 
-                # break  #失败一次，结束
+                else:
+                    print("44444")
+                    time.sleep(1)
+                    os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
+                    time.sleep(1)
+                    logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
+                    print("失败了")
+                    break  #失败一次，结束
 
+    except:
+        watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        while watch_battery != '已连接' and watch_battery != '连接中':
+            print("失败失败失败了")
+            os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
+            logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
     end4 = datetime.datetime.now()  # 计时结束
     logging.info(end4 - start)  # 计算单次测试连接时间
+
+
+        # while watch_battery != '已连接' and watch_battery != '连接中':
+        #     time.sleep(5)
+        #     print("失败啦小菜鸡")
+        #     break
+
+
+
+
 
 while i == cycle_index:
     end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
