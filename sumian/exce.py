@@ -18,8 +18,6 @@ sheet0.write(4, 0, '失败', centered)# 第一页sheet标题命名为“时间�
 # sheet1.write(0, 0, '时间', centered)# 第二页sheet标题命名为“时间”“场强数据”
 # sheet1.write(0, 1, '场强数据', centered)# 第二页sheet标题命名为“时间”“场强数据”
 
-
-i = 1
 for line1 in lines:
 
     if "很快" in line1:
@@ -31,12 +29,7 @@ for line1 in lines:
 
         sheet0.write(i, 0, time2, )# sheet1表写入第一列
         sheet0.write(i, 1, data2, )# sheet1表写入第二列
-        i += 1
-#
-#
-#
-#
-# i = 1
+
 # for line2 in lines:
 #
 #     if "比较慢" in line2:
@@ -47,6 +40,5 @@ for line1 in lines:
 #
 #         sheet0.write(i, 0, time1, )
 #         sheet0.write(i, 2, data1, )
-#
-#         i += 1
+
 workbook.close()
