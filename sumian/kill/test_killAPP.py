@@ -54,46 +54,62 @@ while i < cycle_index:
     time.sleep(15)
 
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
-    watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-
-    if watch_battery == '已连接':  # 判断设备如果是“已连接”状态
-        time.sleep(1)
-        logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
-        print('小哥哥好厉害哦~')
-
-
-    else:
-        time.sleep(15)
+    try:
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        if watch_battery == '已连接':
+        while watch_battery == '已连接':
             time.sleep(1)
-            logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
-            print('你好慢啊，小趴菜~')
+            logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
+            print("小哥哥好厉害哦~")
+            break
 
-        else:
-            time.sleep(18)
+        while watch_battery == '连接中':
+            print("我还在连接中")
+            time.sleep(10)
+            os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
             watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
             if watch_battery == '已连接':
-                logging.info('第' + str(i + 1) + '次：太慢////' + watch_battery)  # log输出显示第几次连接成功
-                print('你太慢啊，小趴菜~')
+                print("等一下哦~")
+                time.sleep(1)
+                logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
+                break
+
 
             else:
-                time.sleep(1)
-                logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
-                print('唉呀妈呀连不上啦~')
-                # 失败后执行一次开关手机的蓝牙
-                os.system('adb shell service call statusbar 1')  # 下拉通知栏
-                logging.info("下拉通知栏")
-                time.sleep(2)
-                os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
-                logging.info("关闭蓝牙")
-                time.sleep(2)
-                os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
-                logging.info("开启蓝牙")
-                os.system('adb shell service call statusbar 2')  # 收起通知栏
-                logging.info("收起通知栏")
-                # time.sleep(2)
-                # break #结束本轮测试
+                print("再等一下哈！")
+                time.sleep(10)
+                watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                if watch_battery == '已连接':
+                    time.sleep(1)
+                    logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
+                    print("太慢了小趴菜")
+                    break
+
+                else:
+                    print("44444")
+                    time.sleep(1)
+                    os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
+                    time.sleep(1)
+                    logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
+                    print("唉呀妈呀连不上啦~")
+                    # 失败后执行一次开关手机的蓝牙
+                    os.system('adb shell service call statusbar 1')  # 下拉通知栏
+                    logging.info("下拉通知栏")
+                    time.sleep(2)
+                    os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
+                    logging.info("关闭蓝牙")
+                    time.sleep(2)
+                    os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
+                    logging.info("开启蓝牙")
+                    os.system('adb shell service call statusbar 2')  # 收起通知栏
+                    logging.info("收起通知栏")
+                    break  #失败一次，结束
+
+    except:
+        # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        # while watch_battery != '已连接' and watch_battery != '连接中':
+        #     print("失败失败失败了")
+        #     os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
+        logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
 
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
@@ -116,6 +132,10 @@ start()
 print('运行完成')
 time.sleep(3)
 
+f = open("G:\py\sumian\kill\killAPP_Result.txt",encoding="ANSI")
+print(f.read())
+f.close()
+time.sleep(3)
 
 def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_name1='', file_name2=''):
     # 创建一个带附件的实例

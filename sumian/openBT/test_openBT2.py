@@ -73,8 +73,6 @@ while i < cycle_index:
         while watch_battery == '已连接':
             time.sleep(1)
             logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
-            # end1 = datetime.datetime.now() #快速连接的计时
-            # logging.info(end1-start)
             print("我get到了~")
             break
 
@@ -117,15 +115,8 @@ while i < cycle_index:
             logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
-    end4 = datetime.datetime.now()  # 计时结束
-    logging.info(end4 - start)  # 计算单次测试连接时间
-
-
-        # while watch_battery != '已连接' and watch_battery != '连接中':
-        #     time.sleep(5)
-        #     print("失败啦小菜鸡")
-        #     break
-
+    end = datetime.datetime.now()  # 计时结束
+    logging.info(end - start)  # 计算单次测试连接时间
 
 
 
@@ -145,10 +136,16 @@ start()
 print('运行完成')
 time.sleep(10)
 
+f = open("G:\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")
+print(f.read())
+f.close()
+time.sleep(3)
+
+
 
 def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_name1='', file_name2='',
               file_path3='', file_name3=''):
-    # 创建一个带附件的实例
+    # 创建带附件的实例
     message = MIMEMultipart()
     message['Subject'] = subject
     message['From'] = msg_from

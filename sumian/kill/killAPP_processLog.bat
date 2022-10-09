@@ -16,7 +16,6 @@ echo ---------------------------------------------->>%fileName%
   echo 关键字 %%a  共有 !n%%a! 处
 ))>>%fileName%
 echo.>>%fileName%
-echo 崩溃日志：>>%fileName%
 findstr "%str%" "%ff%">>%fileName%
 echo/&pause&exit
 :yky
