@@ -74,11 +74,17 @@ while i < cycle_index:
         time.sleep(240)
 
         device(resourceId="com.sumian.app:id/bt_confirm").click()   #点击升级成功确认按钮
+        logging.info('升级成功')
+        time.sleep(2)
         os.system('adb shell input keyevent 4')  #点击返回键
+        logging.info('返回设置界面')
+        time.sleep(2)
         device(resourceId="com.sumian.app:id/tab_device").click()  #点击第一个Tab入口
+        logging.info('返回首页')
         # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity') #返回到首页
         time.sleep(2)
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        logging.info('开始获取连接状态信息')
 
         if watch_battery == '已连接':
             logging.info('第'+str(i + 1) + '次：升级成功////' + watch_battery)  # log输出显示第几次连接成功
@@ -88,6 +94,7 @@ while i < cycle_index:
 
 
     else:
+        logging.info('哎呀，怎么连接失败了呢，升级不了啦。。。')
         time.sleep(3)
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
         logging.info('第'+str(i+1)+'次：连接失败////'+watch_battery)   #输出log判断第几次失败
@@ -98,7 +105,7 @@ while i < cycle_index:
     logging.info(end-start1) #计算单次测试连接时间
 
 while i == cycle_index:
-    logging.info(str(i)+'次OTA完成测试，请尽快查看数据')
+    logging.info(str(i)+'次OTA搞完啦，请尽快查看数据')
     print('大兄弟，我搞完啦。你来呀~~~')
     break
 
@@ -122,7 +129,7 @@ def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_pa
 
     if file_path1 != '' and file_path2 != '' and file_path3 != '':
             # 构造附件
-        att = MIMEText(open(file_path, 'rb').read(), 'base64', 'gb2312')
+        att = MIMEText(open(file_path1, 'rb').read(), 'base64', 'gb2312')
         att["Content-Type"] = 'application/octet-stream'
         att.add_header("Content-Disposition", 'attachment', filename=file_name1)
         message.attach(att)
