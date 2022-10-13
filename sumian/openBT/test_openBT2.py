@@ -14,8 +14,8 @@ import win32api
 
 # log日志配置
 
-# logging.basicConfig(level=logging.DEBUG,filename='G:\py\sumian\openBT\openBT.log', format='%(asctime)s  --%(
-# filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #打印出时间、行数、信息
+# logging.basicConfig(level=logging.DEBUG,filename='G:\py\sumian\openBT\openBT_%Y_%m_%d.log', format='%(asctime)s  --%(filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')
+#基础打印信息
 
 CON_LOG = './yaml/log.conf'
 logging.config.fileConfig(CON_LOG)
@@ -25,7 +25,7 @@ logging = logging.getLogger()
 # 连接手机 ADB
 devices = str(subprocess.check_output('adb devices')).replace(" ", "") \
     .replace("b'Listofdevicesattached", "").replace("device", "").replace("\\", "").replace("rn", "").replace("t'", "")
-assert ut2.connect(devices), "请在cmd里输入adb devices确认设备是否存在"
+assert ut2.connect(devices) # "请在cmd里输入adb devices确认设备是否存在"
 device = ut2.connect(devices)
 
 if devices != 'c7cff486' and devices != 'c23d076' and devices != '94a138a9':  # nubia Z7mini手机/360N5手机/坚果手机
@@ -105,14 +105,17 @@ while i < cycle_index:
                     time.sleep(1)
                     logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
                     print("失败了")
+                    # os.system('adb shell input keyevent 25') #按音量下键
+                    # os.system('adb shell input keyevent 26') #按电源键
+                    # time.sleep(2)
                     break  #失败一次，结束
 
     except:
-        watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        while watch_battery != '已连接' and watch_battery != '连接中':
-            print("失败失败失败了")
-            os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
-            logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
+        # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        # while watch_battery != '已连接' and watch_battery != '连接中':
+        #     print("失败失败失败了")
+        #     os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
+        logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
     end = datetime.datetime.now()  # 计时结束
@@ -121,10 +124,10 @@ while i < cycle_index:
 
 
 
-while i == cycle_index:
-    end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
-    break
+# while i == cycle_index:
+#     end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
+#     break
 
 
 def start():
@@ -135,7 +138,7 @@ def start():
 start()
 print('运行完成')
 time.sleep(10)
-
+ 
 f = open("G:\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")
 print(f.read())
 f.close()

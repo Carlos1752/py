@@ -73,9 +73,9 @@ while i < cycle_index:
         # os.system('adb shell input tap 500 1327') #点击坐标点击升级按钮
         time.sleep(240)
 
-        device(resourceId="com.sumian.app:id/bt_confirm").click()
-        os.system('adb shell input keyevent 4')
-        device(resourceId="com.sumian.app:id/tab_device").click()
+        device(resourceId="com.sumian.app:id/bt_confirm").click()   #点击升级成功确认按钮
+        os.system('adb shell input keyevent 4')  #点击返回键
+        device(resourceId="com.sumian.app:id/tab_device").click()  #点击第一个Tab入口
         # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity') #返回到首页
         time.sleep(2)
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态

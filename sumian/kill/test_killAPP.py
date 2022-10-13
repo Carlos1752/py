@@ -1,3 +1,5 @@
+import configparser
+import logging
 import datetime
 import logging.config
 import os
@@ -7,15 +9,15 @@ import sys
 import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-
 import uiautomator2 as ut2
 import win32api
 
 # log日志配置 logging.basicConfig(level=logging.DEBUG,filename='D:\py\sumian\kill\kliiAPP.log', format='%(asctime)s  --%(
 # filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #以基础配置打印出时间、行数、信息
 
-CON_LOG = './yaml/log.conf'  # 使用log.conf配置文件输出
-logging.config.fileConfig(CON_LOG)
+# cf = './yaml/log.conf'  # 使用log.conf配置文件输出
+logging.config.fileConfig("./yaml/log.conf")
+# cf = configparser.RawConfigParser()
 logging = logging.getLogger()
 
 # 连接手机 ADB
@@ -116,11 +118,11 @@ while i < cycle_index:
     end = datetime.datetime.now()  # 计时结束
     logging.info(end - start)  # 计算单次测试连接时间
 
-while i == cycle_index:
-    end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
-    print('结束了')
-    break  # 结束
+# while i == cycle_index:
+#     end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+#     logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
+#     print('结束了')
+#     break  # 结束
 
 
 def start():
@@ -130,7 +132,7 @@ def start():
 
 start()
 print('运行完成')
-time.sleep(3)
+time.sleep(10)
 
 f = open("G:\py\sumian\kill\killAPP_Result.txt",encoding="ANSI")
 print(f.read())
