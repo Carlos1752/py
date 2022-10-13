@@ -63,16 +63,21 @@ while i < cycle_index:
     watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text() #获取设备连接状态
     if watch_battery == '已连接': #判断设备如果是“已连接”状态
         time.sleep(1)
-        os.system('adb shell am start -n com.sumian.app/com.sumian.sd.examine.main.me.ExamineVersionUpdateActivity')
+        os.system('adb shell am start -n com.sumian.app/com.sumian.sd.examine.main.me.ExamineVersionUpdateActivity') #调用版本界面
         # os.system('adb shell input tap 350 1435')#点击坐标监测仪升级入口
+        logging.info('进入到版本界面')
         device(resourceId="com.sumian.app:id/tv_desc").click()  # 通过ID点击监测仪升级入口按钮
         # os.system('adb shell input tap 500 1327') #点击坐标点击下载按钮
+        logging.info('进入监测仪升级检测界面')
         device(resourceId="com.sumian.app:id/bt_download").click()  #通过ID点击下载按钮
-        time.sleep(2)
+        logging.info('开始下载')
+        time.sleep(5)
         device(resourceId="com.sumian.app:id/bt_upgrade").click()  #通过ID点击升级按钮
+        logging.info('开始升级，请耐心等待~')
         # os.system('adb shell input tap 500 1327') #点击坐标点击升级按钮
         time.sleep(240)
-
+        logging.info('我静静地等你showtime完成！')
+        logging.info('哈哈，小比崽子传完了吧，我要返回了哦。')
         device(resourceId="com.sumian.app:id/bt_confirm").click()   #点击升级成功确认按钮
         logging.info('升级成功')
         time.sleep(2)
