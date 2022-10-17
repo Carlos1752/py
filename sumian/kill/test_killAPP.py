@@ -139,7 +139,7 @@ print(f.read())
 f.close()
 time.sleep(3)
 
-def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_name1='', file_name2=''):
+def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_path2='', file_path3='', file_name1='', file_name2='', file_name3=''):
     # 创建一个带附件的实例
     message = MIMEMultipart()
     message['Subject'] = subject
@@ -149,7 +149,7 @@ def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_pa
     # 邮件正文内容
     message.attach(MIMEText(content, 'plain', 'utf-8'))
 
-    if file_path1 != '' and file_path2 != '':
+    if file_path1 != '' and file_path2 != '' and file_path3 != '':
         # 构造附件1
         att_txt1 = MIMEText(open(file_path1, 'rb').read(), 'base64', 'gb2312')
         att_txt1["Content-Type"] = 'application/octet-stream'
@@ -160,6 +160,12 @@ def sendEmail(msg_from, passwd, subject, msg_to, content, file_path1='', file_pa
         att_txt2["Content-Type"] = 'application/octet-stream'
         att_txt2.add_header("Content-Disposition", 'attachment', filename=file_name2)
         message.attach(att_txt2)
+
+        # 构造附件3
+        att_txt3 = MIMEText(open(file_path3, 'rb').read(), 'base64', 'gb2312')
+        att_txt3["Content-Type"] = 'application/octet-stream'
+        att_txt3.add_header("Content-Disposition", 'attachment', filename=file_name3)
+        message.attach(att_txt3)
 
     server = smtplib.SMTP_SSL('smtp.qq.com', 465)
     server.login(msg_from, passwd)
@@ -187,7 +193,10 @@ if __name__ == '__main__':
     file_path2 = r'G:\py\sumian\kill\killAPP_Result.txt'  # 添加附件2的路径
     file_name2 = 'killAPP_Result.txt'  # 添加附件2的名字
 
+    file_path3 = r'G:\py\sumian\kill\killAPP_Result.txt'  # 添加附件3的路径
+    file_name3 = 'killAPP_Result.txt'  # 添加附件2的名字
+
     # 1.发送带附件的qq邮件
-    sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_name1, file_name2)
+    sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_name1, file_name2, file_path3, file_name3)
     # 2.发送不带附件的qq邮件
     # sendEmail(msg_from, passwd, subject, msg_to, content)
