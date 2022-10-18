@@ -137,7 +137,7 @@ print('运行完成')
 time.sleep(5)
 
 #调用发送邮件的的脚本
-send = os.system('python sendemail.py')
+send = os.system('python sendemailkill.py')
 print("发送结束")
 
 
