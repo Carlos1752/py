@@ -30,7 +30,7 @@ assert ut2.connect(devices), "请在cmd里输入adb devices确认设备是否存
 device = ut2.connect(devices)
 
 
-if devices != 'c7cff486' and  devices != 'c23d076' and devices != '94a138a9':                   #nubia Z7mini手机,360N5，坚果手机
+if devices != 'c7cff486' and  devices != 'c23d076' and devices != '94a138a9' and devices != 'PZ8XW4SSOF69TKZH':                   #nubia Z7mini手机,360N5，坚果手机
     print("未连接设备")
     sys.exit()
     #判断是否指定的设备存在，如果不一致就结束
@@ -115,10 +115,14 @@ while i == cycle_index:
     break
 
 def start():
-    cmd = "G:\\py\\sumian\\OTA\\OTA_processLog.bat"  # 执行运行bat脚本
+    # cmd = "G:\\py\\sumian\\OTA\\OTA_processLog.bat"  # 执行运行bat脚本
+    cmd = "D:\\ProgramFiles\\JetBrains\\PycharmProjects\\sumian\\py\\sumian\\OTA\\OTA_processLog.bat"
     win32api.ShellExecute(0, 'open', cmd, '', '', 1)  # 前台打开
 
 start()
 print('运行完成')
 time.sleep(3)
 
+
+send = os.system('python sendemailOTA.py')
+print('发送结束')
