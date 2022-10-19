@@ -134,7 +134,7 @@ while i == cycle_index:
     logging.info(str(i)+'次OTA搞完啦，请尽快查看数据')
     print('大兄弟，我搞完啦。你来呀~~~')
     break
-#执行运行汇总脚本
+#运行搜索日志中关键词的脚本
 def start():
     cmd = "G:\\py\\sumian\\OTA\\OTA_processLog.bat"  # 执行运行bat脚本
     # cmd = "D:\\ProgramFiles\\JetBrains\\PycharmProjects\\sumian\\py\\sumian\\OTA\\OTA_processLog.bat"
@@ -144,6 +144,6 @@ start()
 print('运行完成')
 time.sleep(3)
 
-
+#执行调用发送邮件脚本
 send = os.system('python sendemailOTA.py')
 print('发送结束')

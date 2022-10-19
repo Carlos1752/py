@@ -114,7 +114,7 @@ while i < cycle_index:
 #     logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
 #     break
 
-
+#运行搜索日志中关键词的脚本
 def start():
     cmd = "G:\\py\\sumian\\openBT\\openBT_processLog.bat"  # 执行运行bat脚本
     # cmd = "D:\\ProgramFiles\\JetBrains\\PycharmProjects\\sumian\\py\\sumian\\openBT\\openBT_processLog.bat"  # 自己的惠普笔记本电脑路径
