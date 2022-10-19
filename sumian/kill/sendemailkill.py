@@ -7,8 +7,8 @@ import logging.config
 import logging
 
 
-txt = "D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt"  # 自己的惠普笔记本电脑路径
-# txt = "G:\py\sumian\kill\killAPP_Result.txt"  #公司电脑路径
+# txt = "D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt"  # 自己的惠普笔记本电脑路径
+txt = "G:\py\sumian\kill\killAPP_Result.txt"  #公司电脑路径
 f = open(txt,encoding="ANSI")
 print(f.read())
 f.close()
@@ -65,17 +65,17 @@ if __name__ == '__main__':
               '3、有问题尽快反馈给开发大佬们哦'  # 邮件正文
 
     # 没有附件可以省略不写
-    # file_path1 = r'G:\py\sumian\kill\killAPP.log'  # 添加附件1的路径,公司电脑
-    file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP.log'  # 自己惠普笔记本电脑路径
+    file_path1 = r'G:\py\sumian\kill\killAPP.log'  # 添加附件1的路径,公司电脑
+    # file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP.log'  # 自己惠普笔记本电脑路径
     file_name1 = 'kliiAPP.log'  # 添加附件1的名字
 
-    # file_path2 = r'G:\py\sumian\kill\killAPP_Result.txt'  # 添加附件2的路径，公司电脑
-    file_path2 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt'  # 自己惠普笔记本电脑路径
-    file_name2 = '../killAPP_Result.txt'  # 添加附件2的名字
+    file_path2 = r'G:\py\sumian\kill\killAPP_Result.txt'  # 添加附件2的路径，公司电脑
+    # file_path2 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt'  # 自己惠普笔记本电脑路径
+    file_name2 = 'killAPP_Result.txt'  # 添加附件2的名字
 
-    # file_path3 = r'G:\py\sumian\kill\killAPP_Result.txt'  # 添加附件3的路径,公司电脑
-    file_path3 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt'  # 自己惠普笔记本电脑路径
-    file_name3 = '../killAPP_Result.txt'  # 添加附件2的名字
+    file_path3 = r'G:\py\sumian\kill\1666141592992.jpg'  # 添加附件3的路径,公司电脑
+    # file_path3 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP_Result.txt'  # 自己惠普笔记本电脑路径
+    file_name3 = '夕阳.jpg'  # 添加附件2的名字
 
     # 1.发送带附件的qq邮件
     sendEmail(msg_from, passwd, subject, msg_to, content, file_path1, file_path2, file_path3, file_name1, file_name2,
