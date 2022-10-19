@@ -5,8 +5,8 @@ import win32api
 import smtplib
 
 
-# f = open("G:\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")#公司电脑路径
-f = open("D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")#个人电脑路径
+f = open("G:\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")#公司电脑路径
+# f = open("D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT_Result.txt",encoding="ANSI")#个人电脑路径
 print(f.read())
 f.close()
 time.sleep(3)
@@ -62,16 +62,16 @@ if __name__ == '__main__':
               '2、相关数据汇总请手动执行' \
               '3、有问题尽快反馈给开发大佬们哦'  # 邮件正文
     # 没有附件可以省略不写
-    # file_path1 = r'G:\py\sumian\openBT\openBT.log'  # 添加附件的路径，公司电脑
-    file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT.log' #个人电脑路径
+    file_path1 = r'G:\py\sumian\openBT\openBT.log'  # 添加附件的路径，公司电脑
+    # file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT.log' #个人电脑路径
     file_name1 = '运动log.log'  # 添加附件的名字
 
-    # file_path2 = r'G:\py\sumian\openBT\openBT_Result.txt'  # 添加附件的路径
-    file_path2 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT_Result.txt'#个人电脑路径
+    file_path2 = r'G:\py\sumian\openBT\openBT_Result.txt'  # 添加附件的路径
+    # file_path2 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT_Result.txt'#个人电脑路径
     file_name2 = '结果汇总.txt'  # 添加附件的名字
 
-    # file_path3 = r'G:\py\sumian\openBT\15916825353233762.jpg'  # 添加图片的路径
-    file_path3 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\15916825353233762.jpg'#个人电脑路径
+    file_path3 = r'G:\py\sumian\openBT\15916825353233762.jpg'  # 添加图片的路径
+    # file_path3 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\15916825353233762.jpg'#个人电脑路径
     file_name3 = '小美女.jpg'  # 设置图片附件的名字
 
     # 1.发送带附件的qq邮件

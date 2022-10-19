@@ -11,6 +11,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import win32api
+from sumian.devicescan import *
 
 # log日志配置
 
@@ -19,27 +20,8 @@ import win32api
 
 CON_LOG = './yaml/log.conf'
 logging.config.fileConfig(CON_LOG)
-
 logging = logging.getLogger()
 
-# 连接手机 ADB
-devices = str(subprocess.check_output('adb devices')).replace(" ", "") \
-    .replace("b'Listofdevicesattached", "").replace("device", "").replace("\\", "").replace("rn", "").replace("t'", "")
-assert ut2.connect(devices) # "请在cmd里输入adb devices确认设备是否存在"
-device = ut2.connect(devices)
-
-if devices != 'c7cff486' and devices != 'c23d076' and devices != '94a138a9' and devices != 'PZ8XW4SSOF69TKZH':  # nubia Z7mini手机/360N5手机/坚果手机
-    print("未连接设备")
-    sys.exit()
-    # 判断是否指定的设备存在，如果不一致就结束
-
-else:
-    print(devices)
-    os.system('adb shell wm size')  # 打印手机分辨率
-    # 判断是否指定的设备存在，如果一致就继续，且打印出设备名称
-
-print("请输入次数：", end="")
-cycle_index = int(input())
 logging.info('>>>>开始进行开关蓝牙回连压测>>>>')
 logging.info('总测试次数：' + str(cycle_index))  # 打印本次要测试总次数
 start1 = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -55,8 +37,8 @@ while i < cycle_index:
     time.sleep(3)
     # os.system('adb shell input tap 420 340') #目前是针对努比亚Z7MINI手机进行适配，屏幕分辨率是1080*1920
     # os.system('adb shell input tap 880 730')
-    # os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
-    os.system('adb shell input tap 616 424')  #realme GT neo
+    os.system('adb shell input tap 530 230')  # 360N5手机，屏幕分辨率是1080*1920
+    # os.system('adb shell input tap 616 424')  #realme GT neo
     logging.info("关闭蓝牙")
     time.sleep(2)
     os.system('adb shell service call statusbar 2')  # 收起通知栏
@@ -64,13 +46,13 @@ while i < cycle_index:
     time.sleep(2)
     os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
     time.sleep(2)
-    # os.system('adb shell input tap 522 1070')  # 点击首页开启蓝牙的大按钮
-    os.system('adb shell input tap 540 1182')  #realme GT NEO手机
+    os.system('adb shell input tap 522 1070')  # 点击首页开启蓝牙的大按钮
+    # os.system('adb shell input tap 540 1182')  #realme GT NEO手机
     logging.info("开启蓝牙")
     start = datetime.datetime.now()  # 计时开始
     time.sleep(15)
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
-    os.system('adb shell input tap 970 870')  #点击关闭，realme GT neo
+    # os.system('adb shell input tap 970 870')  #点击关闭，realme GT neo
     try:
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
         while watch_battery == '已连接':
@@ -134,8 +116,8 @@ while i < cycle_index:
 
 
 def start():
-    # cmd = "G:\\py\\sumian\\openBT\\openBT_processLog.bat"  # 执行运行bat脚本
-    cmd = "D:\\ProgramFiles\\JetBrains\\PycharmProjects\\sumian\\py\\sumian\\openBT\\openBT_processLog.bat"  # 自己的惠普笔记本电脑路径
+    cmd = "G:\\py\\sumian\\openBT\\openBT_processLog.bat"  # 执行运行bat脚本
+    # cmd = "D:\\ProgramFiles\\JetBrains\\PycharmProjects\\sumian\\py\\sumian\\openBT\\openBT_processLog.bat"  # 自己的惠普笔记本电脑路径
     win32api.ShellExecute(0, 'open', cmd, '', '', 1)  # 前台打开
 
 

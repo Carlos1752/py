@@ -2,6 +2,7 @@ import os
 import subprocess
 import sys
 import uiautomator2 as ut2
+import logging
 
 # 连接手机 ADB
 devices = str(subprocess.check_output('adb devices')).replace(" ", "") \
@@ -21,3 +22,4 @@ else:
 
 print("请输入次数：", end="")
 cycle_index = int(input())
+logging.info('总测试次数：'+str(cycle_index))#打印本次要测试总次数
