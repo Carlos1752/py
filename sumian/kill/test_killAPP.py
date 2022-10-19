@@ -38,6 +38,7 @@ while i < cycle_index:
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     try:
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        logging.info('开始获取连接状态信息'+watch_battery)
         while watch_battery == '已连接':
             time.sleep(1)
             logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功

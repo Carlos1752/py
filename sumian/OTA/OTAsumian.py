@@ -107,11 +107,10 @@ while i < cycle_index:
         time.sleep(2)
         device(resourceId="com.sumian.app:id/tab_device").click()  #点击第一个Tab入口
         logging.info('返回首页')
-        # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity') #返回到首页
         time.sleep(2)
 
         watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        logging.info('开始获取连接状态信息')
+        logging.info('开始获取连接状态信息'+watch_battery)
 
         if watch_battery == '已连接':
             logging.info('第'+str(i + 1) + '次：升级成功////' + watch_battery)  # log输出显示第几次连接成功
