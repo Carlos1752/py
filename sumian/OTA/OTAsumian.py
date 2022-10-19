@@ -25,7 +25,7 @@ logging=logging.getLogger()
 
 
 logging.info('>>>>开始进行OTA压测>>>>')
-
+logging.info('总测试次数：' + str(cycle_index))  # 打印本次要测试总次数
 
 # device.app_start("com.sumian.app")
 

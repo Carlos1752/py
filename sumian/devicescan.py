@@ -22,4 +22,3 @@ else:
 
 print("请输入次数：", end="")
 cycle_index = int(input())
-logging.info('总测试次数：'+str(cycle_index))#打印本次要测试总次数
