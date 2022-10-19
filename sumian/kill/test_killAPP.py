@@ -33,7 +33,8 @@ while i < cycle_index:
     os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP
     logging.info('我又起来啦')
     start = datetime.datetime.now()  # 计时开始
-    time.sleep(15)
+    # time.sleep(15)
+    os.system('python G:\py\sumian\daojishi.py')#调用倒计时脚本，默认是15秒
 
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     try:
@@ -48,6 +49,7 @@ while i < cycle_index:
         while watch_battery == '连接中':
             print("我还在连接中")
             time.sleep(10)
+            # os.system('python daojishi.py')
             os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
             watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
             if watch_battery == '已连接':
@@ -60,6 +62,7 @@ while i < cycle_index:
             else:
                 print("再等一下哈！")
                 time.sleep(10)
+                # os.system('python daojishi.py')
                 watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
                 if watch_battery == '已连接':
                     time.sleep(1)
@@ -98,13 +101,6 @@ while i < cycle_index:
     logging.info('第' + str(i) + '次结束')
     end = datetime.datetime.now()  # 计时结束
     logging.info(end - start)  # 计算单次测试连接时间
-
-# while i == cycle_index:
-#     end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-#     logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
-#     print('结束了')
-#     break  # 结束
-
 
 #运行搜索日志中关键词的脚本
 def start():

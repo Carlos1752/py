@@ -50,7 +50,9 @@ while i < cycle_index:
     # os.system('adb shell input tap 540 1182')  #realme GT NEO手机
     logging.info("开启蓝牙")
     start = datetime.datetime.now()  # 计时开始
-    time.sleep(15)
+    # time.sleep(15)
+    os.system('python G:\py\sumian\daojishi.py') #调用倒计时脚本，默认是15秒
+
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     # os.system('adb shell input tap 970 870')  #点击关闭，realme GT neo
     try:

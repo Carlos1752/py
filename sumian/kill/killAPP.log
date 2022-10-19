@@ -772,3 +772,680 @@
 2022-10-19 15:41:31 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第1次：很快////已连接
 2022-10-19 15:41:31 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第1次结束
 2022-10-19 15:41:31 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.914134
+2022-10-19 15:44:57 ~ test_killAPP.py ~ INFO     ~ 0021 ~ >>>>开始进行杀进程回连压测>>>>
+2022-10-19 15:44:57 ~ test_killAPP.py ~ INFO     ~ 0022 ~ 总测试次数：100
+2022-10-19 15:44:57 ~ test_killAPP.py ~ INFO     ~ 0024 ~ 本次开始测试时间：2022-10-19 15:44:57
+2022-10-19 15:45:00 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:45:06 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:45:22 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:45:23 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第1次：很快////已连接
+2022-10-19 15:45:23 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第1次结束
+2022-10-19 15:45:23 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.933354
+2022-10-19 15:45:26 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:45:32 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:45:48 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:45:49 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第2次：很快////已连接
+2022-10-19 15:45:49 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第2次结束
+2022-10-19 15:45:49 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.948384
+2022-10-19 15:45:52 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:45:58 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:46:13 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:46:14 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第3次：很快////已连接
+2022-10-19 15:46:14 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第3次结束
+2022-10-19 15:46:14 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.896711
+2022-10-19 15:46:18 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:46:23 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:46:39 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:46:40 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第4次：很快////已连接
+2022-10-19 15:46:40 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第4次结束
+2022-10-19 15:46:40 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.919935
+2022-10-19 15:46:44 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:46:49 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:47:05 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:47:06 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第5次：很快////已连接
+2022-10-19 15:47:06 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第5次结束
+2022-10-19 15:47:06 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.011710
+2022-10-19 15:47:10 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:47:15 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:47:31 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:47:32 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第6次：很快////已连接
+2022-10-19 15:47:32 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第6次结束
+2022-10-19 15:47:32 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.931039
+2022-10-19 15:47:36 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:47:41 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:47:57 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:47:58 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第7次：很快////已连接
+2022-10-19 15:47:58 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第7次结束
+2022-10-19 15:47:58 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.965792
+2022-10-19 15:48:01 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:48:07 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:48:23 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:48:24 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第8次：很快////已连接
+2022-10-19 15:48:24 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第8次结束
+2022-10-19 15:48:24 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.923408
+2022-10-19 15:48:27 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:48:33 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:48:49 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:48:50 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第9次：很快////已连接
+2022-10-19 15:48:50 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第9次结束
+2022-10-19 15:48:50 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.976926
+2022-10-19 15:48:53 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:48:59 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:49:15 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:49:16 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第10次：很快////已连接
+2022-10-19 15:49:16 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第10次结束
+2022-10-19 15:49:16 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.017206
+2022-10-19 15:49:19 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:49:25 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:49:41 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:49:42 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第11次：很快////已连接
+2022-10-19 15:49:42 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第11次结束
+2022-10-19 15:49:42 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.967517
+2022-10-19 15:49:45 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:49:51 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:50:07 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:50:08 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第12次：很快////已连接
+2022-10-19 15:50:08 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第12次结束
+2022-10-19 15:50:08 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.949802
+2022-10-19 15:50:11 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:50:17 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:50:33 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:50:34 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第13次：很快////已连接
+2022-10-19 15:50:34 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第13次结束
+2022-10-19 15:50:34 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.966014
+2022-10-19 15:50:37 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:50:43 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:50:59 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:51:00 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第14次：很快////已连接
+2022-10-19 15:51:00 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第14次结束
+2022-10-19 15:51:00 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.911082
+2022-10-19 15:51:03 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:51:08 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:51:24 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:51:25 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第15次：很快////已连接
+2022-10-19 15:51:25 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第15次结束
+2022-10-19 15:51:25 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.974851
+2022-10-19 15:51:29 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:51:34 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:51:50 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:51:51 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第16次：很快////已连接
+2022-10-19 15:51:51 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第16次结束
+2022-10-19 15:51:51 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.879953
+2022-10-19 15:51:55 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:52:00 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:52:16 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:52:17 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第17次：很快////已连接
+2022-10-19 15:52:17 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第17次结束
+2022-10-19 15:52:17 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.931684
+2022-10-19 15:52:21 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:52:26 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:52:42 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:52:43 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第18次：很快////已连接
+2022-10-19 15:52:43 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第18次结束
+2022-10-19 15:52:43 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.930316
+2022-10-19 15:52:47 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:52:52 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:53:08 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:53:09 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第19次：很快////已连接
+2022-10-19 15:53:09 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第19次结束
+2022-10-19 15:53:09 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.930913
+2022-10-19 15:53:12 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:53:18 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:53:34 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:53:35 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第20次：很快////已连接
+2022-10-19 15:53:35 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第20次结束
+2022-10-19 15:53:35 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.907263
+2022-10-19 15:53:38 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:53:44 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:54:00 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:54:01 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第21次：很快////已连接
+2022-10-19 15:54:01 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第21次结束
+2022-10-19 15:54:01 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.042812
+2022-10-19 15:54:04 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:54:10 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:54:26 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:54:27 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第22次：很快////已连接
+2022-10-19 15:54:27 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第22次结束
+2022-10-19 15:54:27 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.971958
+2022-10-19 15:54:30 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:54:36 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:54:52 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:54:53 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第23次：很快////已连接
+2022-10-19 15:54:53 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第23次结束
+2022-10-19 15:54:53 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.989556
+2022-10-19 15:54:56 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:55:02 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:55:18 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:55:19 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第24次：很快////已连接
+2022-10-19 15:55:19 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第24次结束
+2022-10-19 15:55:19 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.909068
+2022-10-19 15:55:22 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:55:28 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:55:43 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:55:44 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第25次：很快////已连接
+2022-10-19 15:55:44 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第25次结束
+2022-10-19 15:55:44 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.902510
+2022-10-19 15:55:48 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:55:53 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:56:09 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:56:10 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第26次：很快////已连接
+2022-10-19 15:56:10 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第26次结束
+2022-10-19 15:56:10 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.878500
+2022-10-19 15:56:14 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:56:19 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:56:35 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:56:36 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第27次：很快////已连接
+2022-10-19 15:56:36 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第27次结束
+2022-10-19 15:56:36 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.930234
+2022-10-19 15:56:40 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:56:45 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:57:01 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:57:02 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第28次：很快////已连接
+2022-10-19 15:57:02 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第28次结束
+2022-10-19 15:57:02 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.935940
+2022-10-19 15:57:05 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:57:11 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:57:27 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:57:28 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第29次：很快////已连接
+2022-10-19 15:57:28 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第29次结束
+2022-10-19 15:57:28 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.930278
+2022-10-19 15:57:31 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:57:37 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:57:53 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:57:54 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第30次：很快////已连接
+2022-10-19 15:57:54 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第30次结束
+2022-10-19 15:57:54 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.918543
+2022-10-19 15:57:57 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:58:03 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:58:19 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:58:20 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第31次：很快////已连接
+2022-10-19 15:58:20 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第31次结束
+2022-10-19 15:58:20 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.936793
+2022-10-19 15:58:23 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:58:29 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:58:45 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:58:46 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第32次：很快////已连接
+2022-10-19 15:58:46 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第32次结束
+2022-10-19 15:58:46 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.995776
+2022-10-19 15:58:49 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:58:54 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:59:11 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息连接中
+2022-10-19 15:59:22 ~ test_killAPP.py ~ INFO     ~ 0056 ~ 第33次：比较慢////已连接
+2022-10-19 15:59:22 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第33次结束
+2022-10-19 15:59:22 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:27.946225
+2022-10-19 15:59:26 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:59:31 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 15:59:47 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 15:59:48 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第34次：很快////已连接
+2022-10-19 15:59:48 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第34次结束
+2022-10-19 15:59:48 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.984613
+2022-10-19 15:59:52 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 15:59:57 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:00:13 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:00:14 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第35次：很快////已连接
+2022-10-19 16:00:14 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第35次结束
+2022-10-19 16:00:14 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.921771
+2022-10-19 16:00:18 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:00:23 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:00:39 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:00:40 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第36次：很快////已连接
+2022-10-19 16:00:40 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第36次结束
+2022-10-19 16:00:40 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.921008
+2022-10-19 16:00:44 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:00:49 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:01:05 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:01:06 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第37次：很快////已连接
+2022-10-19 16:01:06 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第37次结束
+2022-10-19 16:01:06 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.915956
+2022-10-19 16:01:10 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:01:15 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:01:31 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:01:32 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第38次：很快////已连接
+2022-10-19 16:01:32 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第38次结束
+2022-10-19 16:01:32 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.966285
+2022-10-19 16:01:35 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:01:41 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:01:57 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:01:58 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第39次：很快////已连接
+2022-10-19 16:01:58 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第39次结束
+2022-10-19 16:01:58 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.903551
+2022-10-19 16:02:01 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:02:07 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:02:23 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:02:24 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第40次：很快////已连接
+2022-10-19 16:02:24 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第40次结束
+2022-10-19 16:02:24 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.965123
+2022-10-19 16:02:27 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:02:33 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:02:49 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:02:50 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第41次：很快////已连接
+2022-10-19 16:02:50 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第41次结束
+2022-10-19 16:02:50 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.916018
+2022-10-19 16:02:53 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:02:59 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:03:15 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:03:16 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第42次：很快////已连接
+2022-10-19 16:03:16 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第42次结束
+2022-10-19 16:03:16 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.968666
+2022-10-19 16:03:19 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:03:25 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:03:41 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:03:42 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第43次：很快////已连接
+2022-10-19 16:03:42 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第43次结束
+2022-10-19 16:03:42 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.926180
+2022-10-19 16:03:45 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:03:51 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:04:07 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:04:08 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第44次：很快////已连接
+2022-10-19 16:04:08 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第44次结束
+2022-10-19 16:04:08 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.939431
+2022-10-19 16:04:11 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:04:17 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:04:33 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:04:34 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第45次：很快////已连接
+2022-10-19 16:04:34 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第45次结束
+2022-10-19 16:04:34 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.907026
+2022-10-19 16:04:37 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:04:42 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:04:58 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:04:59 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第46次：很快////已连接
+2022-10-19 16:04:59 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第46次结束
+2022-10-19 16:04:59 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.973189
+2022-10-19 16:05:03 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:05:08 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:05:24 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:05:25 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第47次：很快////已连接
+2022-10-19 16:05:25 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第47次结束
+2022-10-19 16:05:25 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.940046
+2022-10-19 16:05:29 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:05:34 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:05:50 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:05:51 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第48次：很快////已连接
+2022-10-19 16:05:51 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第48次结束
+2022-10-19 16:05:51 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.038389
+2022-10-19 16:05:55 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:06:00 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:06:16 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:06:17 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第49次：很快////已连接
+2022-10-19 16:06:17 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第49次结束
+2022-10-19 16:06:17 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.938460
+2022-10-19 16:06:21 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:06:26 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:06:42 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:06:43 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第50次：很快////已连接
+2022-10-19 16:06:43 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第50次结束
+2022-10-19 16:06:43 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.920778
+2022-10-19 16:06:46 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:06:52 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:07:08 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:07:09 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第51次：很快////已连接
+2022-10-19 16:07:09 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第51次结束
+2022-10-19 16:07:09 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.933331
+2022-10-19 16:07:12 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:07:18 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:07:34 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:07:35 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第52次：很快////已连接
+2022-10-19 16:07:35 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第52次结束
+2022-10-19 16:07:35 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.065564
+2022-10-19 16:07:39 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:07:44 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:08:00 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:08:01 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第53次：很快////已连接
+2022-10-19 16:08:01 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第53次结束
+2022-10-19 16:08:01 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.939713
+2022-10-19 16:08:04 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:08:10 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:08:26 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:08:27 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第54次：很快////已连接
+2022-10-19 16:08:27 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第54次结束
+2022-10-19 16:08:27 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.901977
+2022-10-19 16:08:30 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:08:36 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:08:52 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:08:53 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第55次：很快////已连接
+2022-10-19 16:08:53 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第55次结束
+2022-10-19 16:08:53 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.924314
+2022-10-19 16:08:56 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:09:02 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:09:18 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:09:19 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第56次：很快////已连接
+2022-10-19 16:09:19 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第56次结束
+2022-10-19 16:09:19 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.925405
+2022-10-19 16:09:22 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:09:28 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:09:44 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:09:45 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第57次：很快////已连接
+2022-10-19 16:09:45 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第57次结束
+2022-10-19 16:09:45 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.982606
+2022-10-19 16:09:48 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:09:54 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:10:09 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:10:10 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第58次：很快////已连接
+2022-10-19 16:10:10 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第58次结束
+2022-10-19 16:10:10 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.947966
+2022-10-19 16:10:14 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:10:19 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:10:35 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:10:36 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第59次：很快////已连接
+2022-10-19 16:10:36 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第59次结束
+2022-10-19 16:10:36 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.907655
+2022-10-19 16:10:40 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:10:45 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:11:01 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:11:02 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第60次：很快////已连接
+2022-10-19 16:11:02 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第60次结束
+2022-10-19 16:11:02 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.959447
+2022-10-19 16:11:05 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:11:11 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:11:27 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:11:28 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第61次：很快////已连接
+2022-10-19 16:11:28 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第61次结束
+2022-10-19 16:11:28 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.904525
+2022-10-19 16:11:31 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:11:37 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:11:53 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:11:54 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第62次：很快////已连接
+2022-10-19 16:11:54 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第62次结束
+2022-10-19 16:11:54 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.902613
+2022-10-19 16:11:57 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:12:03 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:12:19 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:12:20 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第63次：很快////已连接
+2022-10-19 16:12:20 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第63次结束
+2022-10-19 16:12:20 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.924691
+2022-10-19 16:12:23 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:12:29 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:12:45 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:12:46 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第64次：很快////已连接
+2022-10-19 16:12:46 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第64次结束
+2022-10-19 16:12:46 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.922432
+2022-10-19 16:12:49 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:12:55 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:13:10 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:13:11 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第65次：很快////已连接
+2022-10-19 16:13:11 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第65次结束
+2022-10-19 16:13:11 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.923975
+2022-10-19 16:13:15 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:13:20 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:13:36 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:13:37 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第66次：很快////已连接
+2022-10-19 16:13:37 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第66次结束
+2022-10-19 16:13:37 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.894334
+2022-10-19 16:13:41 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:13:46 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:14:02 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:14:03 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第67次：很快////已连接
+2022-10-19 16:14:03 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第67次结束
+2022-10-19 16:14:03 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.906591
+2022-10-19 16:14:06 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:14:12 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:14:28 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:14:29 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第68次：很快////已连接
+2022-10-19 16:14:29 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第68次结束
+2022-10-19 16:14:29 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.949335
+2022-10-19 16:14:32 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:14:38 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:14:54 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:14:55 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第69次：很快////已连接
+2022-10-19 16:14:55 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第69次结束
+2022-10-19 16:14:55 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.935231
+2022-10-19 16:14:58 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:15:04 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:15:20 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:15:21 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第70次：很快////已连接
+2022-10-19 16:15:21 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第70次结束
+2022-10-19 16:15:21 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.912665
+2022-10-19 16:15:24 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:15:30 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:15:46 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:15:47 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第71次：很快////已连接
+2022-10-19 16:15:47 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第71次结束
+2022-10-19 16:15:47 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.922640
+2022-10-19 16:15:50 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:15:56 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:16:12 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:16:13 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第72次：很快////已连接
+2022-10-19 16:16:13 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第72次结束
+2022-10-19 16:16:13 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.881681
+2022-10-19 16:16:16 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:16:22 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:16:38 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:16:39 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第73次：很快////已连接
+2022-10-19 16:16:39 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第73次结束
+2022-10-19 16:16:39 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.932619
+2022-10-19 16:16:42 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:16:47 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:17:03 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:17:04 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第74次：很快////已连接
+2022-10-19 16:17:04 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第74次结束
+2022-10-19 16:17:04 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.898538
+2022-10-19 16:17:08 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:17:13 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:17:29 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:17:30 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第75次：很快////已连接
+2022-10-19 16:17:30 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第75次结束
+2022-10-19 16:17:30 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.945574
+2022-10-19 16:17:34 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:17:39 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:17:55 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:17:56 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第76次：很快////已连接
+2022-10-19 16:17:56 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第76次结束
+2022-10-19 16:17:56 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.944910
+2022-10-19 16:18:00 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:18:05 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:18:21 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:18:22 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第77次：很快////已连接
+2022-10-19 16:18:22 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第77次结束
+2022-10-19 16:18:22 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.899279
+2022-10-19 16:18:25 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:18:31 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:18:47 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:18:48 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第78次：很快////已连接
+2022-10-19 16:18:48 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第78次结束
+2022-10-19 16:18:48 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.897374
+2022-10-19 16:18:52 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:18:57 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:19:13 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:19:14 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第79次：很快////已连接
+2022-10-19 16:19:14 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第79次结束
+2022-10-19 16:19:14 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.916889
+2022-10-19 16:19:17 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:19:23 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:19:39 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:19:40 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第80次：很快////已连接
+2022-10-19 16:19:40 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第80次结束
+2022-10-19 16:19:40 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.944544
+2022-10-19 16:19:43 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:19:49 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:20:05 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:20:06 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第81次：很快////已连接
+2022-10-19 16:20:06 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第81次结束
+2022-10-19 16:20:06 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.943775
+2022-10-19 16:20:09 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:20:15 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:20:31 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:20:32 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第82次：很快////已连接
+2022-10-19 16:20:32 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第82次结束
+2022-10-19 16:20:32 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.923628
+2022-10-19 16:20:35 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:20:41 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:20:56 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:20:57 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第83次：很快////已连接
+2022-10-19 16:20:57 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第83次结束
+2022-10-19 16:20:57 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.868963
+2022-10-19 16:21:01 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:21:06 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:21:22 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:21:23 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第84次：很快////已连接
+2022-10-19 16:21:23 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第84次结束
+2022-10-19 16:21:23 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.975403
+2022-10-19 16:21:27 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:21:32 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:21:48 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:21:49 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第85次：很快////已连接
+2022-10-19 16:21:49 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第85次结束
+2022-10-19 16:21:49 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.005047
+2022-10-19 16:21:53 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:21:58 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:22:14 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:22:15 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第86次：很快////已连接
+2022-10-19 16:22:15 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第86次结束
+2022-10-19 16:22:15 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.943436
+2022-10-19 16:22:19 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:22:24 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:22:40 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:22:41 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第87次：很快////已连接
+2022-10-19 16:22:41 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第87次结束
+2022-10-19 16:22:41 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.915938
+2022-10-19 16:22:45 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:22:50 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:23:06 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:23:07 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第88次：很快////已连接
+2022-10-19 16:23:07 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第88次结束
+2022-10-19 16:23:07 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.929583
+2022-10-19 16:23:10 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:23:16 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:23:32 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:23:33 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第89次：很快////已连接
+2022-10-19 16:23:33 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第89次结束
+2022-10-19 16:23:33 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.895851
+2022-10-19 16:23:36 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:23:42 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:23:58 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:23:59 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第90次：很快////已连接
+2022-10-19 16:23:59 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第90次结束
+2022-10-19 16:23:59 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.985739
+2022-10-19 16:24:02 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:24:08 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:24:24 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:24:25 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第91次：很快////已连接
+2022-10-19 16:24:25 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第91次结束
+2022-10-19 16:24:25 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.905466
+2022-10-19 16:24:28 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:24:34 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:24:50 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:24:51 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第92次：很快////已连接
+2022-10-19 16:24:51 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第92次结束
+2022-10-19 16:24:51 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.914953
+2022-10-19 16:24:54 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:24:59 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:25:16 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:25:17 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第93次：很快////已连接
+2022-10-19 16:25:17 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第93次结束
+2022-10-19 16:25:17 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.099628
+2022-10-19 16:25:20 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:25:26 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:25:41 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:25:42 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第94次：很快////已连接
+2022-10-19 16:25:42 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第94次结束
+2022-10-19 16:25:42 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.942920
+2022-10-19 16:25:46 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:25:52 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:26:07 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:26:08 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第95次：很快////已连接
+2022-10-19 16:26:08 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第95次结束
+2022-10-19 16:26:08 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.931148
+2022-10-19 16:26:12 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:26:17 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:26:33 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:26:34 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第96次：很快////已连接
+2022-10-19 16:26:34 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第96次结束
+2022-10-19 16:26:34 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:17.008965
+2022-10-19 16:26:38 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:26:43 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:26:59 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:27:00 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第97次：很快////已连接
+2022-10-19 16:27:00 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第97次结束
+2022-10-19 16:27:00 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.959116
+2022-10-19 16:27:04 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:27:09 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:27:25 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:27:26 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第98次：很快////已连接
+2022-10-19 16:27:26 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第98次结束
+2022-10-19 16:27:26 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.948797
+2022-10-19 16:27:29 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:27:35 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:27:51 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:27:52 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第99次：很快////已连接
+2022-10-19 16:27:52 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第99次结束
+2022-10-19 16:27:52 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.976457
+2022-10-19 16:27:55 ~ test_killAPP.py ~ INFO     ~ 0031 ~ 我被关闭啦
+2022-10-19 16:28:01 ~ test_killAPP.py ~ INFO     ~ 0034 ~ 我又起来啦
+2022-10-19 16:28:17 ~ test_killAPP.py ~ INFO     ~ 0041 ~ 开始获取连接状态信息已连接
+2022-10-19 16:28:18 ~ test_killAPP.py ~ INFO     ~ 0044 ~ 第100次：很快////已连接
+2022-10-19 16:28:18 ~ test_killAPP.py ~ INFO     ~ 0098 ~ 第100次结束
+2022-10-19 16:28:18 ~ test_killAPP.py ~ INFO     ~ 0100 ~ 0:00:16.921747
+2022-10-19 16:28:59 ~ test_killAPP.py ~ INFO      ~ >>>>开始进行杀进程回连压测>>>>
+2022-10-19 16:28:59 ~ test_killAPP.py ~ INFO      ~ 总测试次数：2
+2022-10-19 16:28:59 ~ test_killAPP.py ~ INFO      ~ 本次开始测试时间：2022-10-19 16:28:59
+2022-10-19 16:29:02 ~ test_killAPP.py ~ INFO      ~ 我被关闭啦
+2022-10-19 16:29:08 ~ test_killAPP.py ~ INFO      ~ 我又起来啦
+2022-10-19 16:29:24 ~ test_killAPP.py ~ INFO      ~ 开始获取连接状态信息已连接
+2022-10-19 16:29:25 ~ test_killAPP.py ~ INFO      ~ 第1次：很快////已连接
+2022-10-19 16:29:25 ~ test_killAPP.py ~ INFO      ~ 第1次结束
+2022-10-19 16:29:25 ~ test_killAPP.py ~ INFO      ~ 0:00:16.970234
+2022-10-19 16:29:28 ~ test_killAPP.py ~ INFO      ~ 我被关闭啦
+2022-10-19 16:29:34 ~ test_killAPP.py ~ INFO      ~ 我又起来啦
+2022-10-19 16:29:50 ~ test_killAPP.py ~ INFO      ~ 开始获取连接状态信息已连接
+2022-10-19 16:29:51 ~ test_killAPP.py ~ INFO      ~ 第2次：很快////已连接
+2022-10-19 16:29:51 ~ test_killAPP.py ~ INFO      ~ 第2次结束
+2022-10-19 16:29:51 ~ test_killAPP.py ~ INFO      ~ 0:00:16.942545
+2022-10-19 16:31:04 / test_killAPP.py / INFO      / >>>>开始进行杀进程回连压测>>>>
+2022-10-19 16:31:04 / test_killAPP.py / INFO      / 总测试次数：2
+2022-10-19 16:31:04 / test_killAPP.py / INFO      / 本次开始测试时间：2022-10-19 16:31:04
+2022-10-19 16:31:07 / test_killAPP.py / INFO      / 我被关闭啦
+2022-10-19 16:31:13 / test_killAPP.py / INFO      / 我又起来啦
+2022-10-19 16:31:29 / test_killAPP.py / INFO      / 开始获取连接状态信息已连接
+2022-10-19 16:31:30 / test_killAPP.py / INFO      / 第1次：很快////已连接
+2022-10-19 16:31:30 / test_killAPP.py / INFO      / 第1次结束
+2022-10-19 16:31:30 / test_killAPP.py / INFO      / 0:00:16.922956
+2022-10-19 16:31:33 / test_killAPP.py / INFO      / 我被关闭啦
+2022-10-19 16:31:39 / test_killAPP.py / INFO      / 我又起来啦
+2022-10-19 16:31:55 / test_killAPP.py / INFO      / 开始获取连接状态信息已连接
+2022-10-19 16:31:56 / test_killAPP.py / INFO      / 第2次：很快////已连接
+2022-10-19 16:31:56 / test_killAPP.py / INFO      / 第2次结束
+2022-10-19 16:31:56 / test_killAPP.py / INFO      / 0:00:16.897267
+2022-10-19 16:33:10 -- test_killAPP.py -- INFO      -- >>>>开始进行杀进程回连压测>>>>
+2022-10-19 16:33:10 -- test_killAPP.py -- INFO      -- 总测试次数：1
+2022-10-19 16:33:10 -- test_killAPP.py -- INFO      -- 本次开始测试时间：2022-10-19 16:33:10
+2022-10-19 16:33:14 -- test_killAPP.py -- INFO      -- 我被关闭啦
+2022-10-19 16:33:19 -- test_killAPP.py -- INFO      -- 我又起来啦
+2022-10-19 16:33:35 -- test_killAPP.py -- INFO      -- 开始获取连接状态信息未连接
+2022-10-19 16:33:35 -- test_killAPP.py -- INFO      -- 第1次结束
+2022-10-19 16:33:35 -- test_killAPP.py -- INFO      -- 0:00:15.973428
+2022-10-19 16:53:04 -- test_killAPP.py -- INFO      -- >>>>开始进行杀进程回连压测>>>>
+2022-10-19 16:53:04 -- test_killAPP.py -- INFO      -- 总测试次数：1
+2022-10-19 16:53:04 -- test_killAPP.py -- INFO      -- 本次开始测试时间：2022-10-19 16:53:04
+2022-10-19 16:53:08 -- test_killAPP.py -- INFO      -- 我被关闭啦
+2022-10-19 16:53:13 -- test_killAPP.py -- INFO      -- 我又起来啦
+2022-10-19 16:53:30 -- test_killAPP.py -- INFO      -- 开始获取连接状态信息已连接
+2022-10-19 16:53:31 -- test_killAPP.py -- INFO      -- 第1次：很快////已连接
+2022-10-19 16:53:31 -- test_killAPP.py -- INFO      -- 第1次结束
+2022-10-19 16:53:31 -- test_killAPP.py -- INFO      -- 0:00:17.125032
+2022-10-19 17:01:42 -- test_killAPP.py -- INFO      -- >>>>开始进行杀进程回连压测>>>>
+2022-10-19 17:01:42 -- test_killAPP.py -- INFO      -- 总测试次数：1
+2022-10-19 17:01:42 -- test_killAPP.py -- INFO      -- 本次开始测试时间：2022-10-19 17:01:42
+2022-10-19 17:01:45 -- test_killAPP.py -- INFO      -- 我被关闭啦
+2022-10-19 17:01:51 -- test_killAPP.py -- INFO      -- 我又起来啦
+2022-10-19 17:02:07 -- test_killAPP.py -- INFO      -- 开始获取连接状态信息已连接
+2022-10-19 17:02:08 -- test_killAPP.py -- INFO      -- 第1次：很快////已连接
+2022-10-19 17:02:08 -- test_killAPP.py -- INFO      -- 第1次结束
+2022-10-19 17:02:08 -- test_killAPP.py -- INFO      -- 0:00:17.137301
+2022-10-19 17:04:41 -- test_killAPP.py -- INFO      -- >>>>开始进行杀进程回连压测>>>>
+2022-10-19 17:04:41 -- test_killAPP.py -- INFO      -- 总测试次数：1
+2022-10-19 17:04:41 -- test_killAPP.py -- INFO      -- 本次开始测试时间：2022-10-19 17:04:41
+2022-10-19 17:04:44 -- test_killAPP.py -- INFO      -- 我被关闭啦
+2022-10-19 17:04:50 -- test_killAPP.py -- INFO      -- 我又起来啦
+2022-10-19 17:04:52 -- test_killAPP.py -- INFO      -- 开始获取连接状态信息已连接
+2022-10-19 17:04:53 -- test_killAPP.py -- INFO      -- 第1次：很快////已连接
+2022-10-19 17:04:53 -- test_killAPP.py -- INFO      -- 第1次结束
+2022-10-19 17:04:53 -- test_killAPP.py -- INFO      -- 0:00:02.933225
+2022-10-19 17:05:40 -- test_killAPP.py -- INFO      -- >>>>开始进行杀进程回连压测>>>>
+2022-10-19 17:05:40 -- test_killAPP.py -- INFO      -- 总测试次数：1
+2022-10-19 17:05:40 -- test_killAPP.py -- INFO      -- 本次开始测试时间：2022-10-19 17:05:40
+2022-10-19 17:05:44 -- test_killAPP.py -- INFO      -- 我被关闭啦
+2022-10-19 17:05:49 -- test_killAPP.py -- INFO      -- 我又起来啦
+2022-10-19 17:06:05 -- test_killAPP.py -- INFO      -- 开始获取连接状态信息已连接
+2022-10-19 17:06:06 -- test_killAPP.py -- INFO      -- 第1次：很快////已连接
+2022-10-19 17:06:06 -- test_killAPP.py -- INFO      -- 第1次结束
+2022-10-19 17:06:06 -- test_killAPP.py -- INFO      -- 0:00:17.074851
