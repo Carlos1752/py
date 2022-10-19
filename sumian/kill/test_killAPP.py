@@ -71,7 +71,7 @@ while i < cycle_index:
                     break
 
                 else:
-                    print("44444")
+                    print("最后再努力一把~")
                     time.sleep(1)
                     os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
                     time.sleep(1)

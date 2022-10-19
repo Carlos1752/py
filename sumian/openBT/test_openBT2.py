@@ -76,7 +76,7 @@ while i < cycle_index:
 
 
             else:
-                print("33333")
+                print("再等一下哈！")
                 time.sleep(10)
                 watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
                 if watch_battery == '已连接':
@@ -86,7 +86,7 @@ while i < cycle_index:
                     break
 
                 else:
-                    print("44444")
+                    print("最后再努力一下吧~")
                     time.sleep(1)
                     os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
                     time.sleep(1)
@@ -108,13 +108,6 @@ while i < cycle_index:
     end = datetime.datetime.now()  # 计时结束
     logging.info(end - start)  # 计算单次测试连接时间
 
-
-
-
-# while i == cycle_index:
-#     end = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-#     logging.info('程序结束测试时间：' + str(end))  # 打印本轮压力测试结束的北京时间
-#     break
 
 #运行搜索日志中关键词的脚本
 def start():
