@@ -91,8 +91,8 @@ while i < cycle_index:
                     break  #失败一次，结束
 
     except:
-        os.system('python sendemailkill.py')
         logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
+        break
 
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
