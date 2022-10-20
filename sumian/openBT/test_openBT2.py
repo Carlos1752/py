@@ -98,10 +98,7 @@ while i < cycle_index:
                     break  #失败一次，结束
 
     except:
-        # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        # while watch_battery != '已连接' and watch_battery != '连接中':
-        #     print("失败失败失败了")
-        #     os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
+        os.system('python sendemailopen.py')
         logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
@@ -123,5 +120,3 @@ time.sleep(10)
 #调用发送邮件的的脚本
 send = os.system('python sendemailopen.py')
 print("发送结束")
- 
-
