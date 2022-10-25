@@ -29,7 +29,8 @@ logging.info('本轮开始测试时间：' + str(start1))  # 打印本轮压力�
 
 i = 0
 while i < cycle_index:
-    os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP
+    # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动测试版APP
+    os.system('adb shell am start -n com.sumian.sd/com.sumian.sd.main.WelcomeActivity')  # 启动测试版APP
     time.sleep(5)
     os.system('adb shell settings get global bluetooth_on')  # 判断当前蓝牙开关状态，1为打开，0为关闭
     os.system('adb shell service call statusbar 1')  # 下拉通知栏
@@ -56,7 +57,8 @@ while i < cycle_index:
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     # os.system('adb shell input tap 970 870')  #点击关闭，realme GT neo
     try:
-        watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
         while watch_battery == '已连接':
             time.sleep(1)
             logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
@@ -67,7 +69,8 @@ while i < cycle_index:
             print("我还在连接中")
             time.sleep(10)
             os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
-            watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+            # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+            watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
             if watch_battery == '已连接':
                 print("222")
                 time.sleep(1)
@@ -78,7 +81,8 @@ while i < cycle_index:
             else:
                 print("再等一下哈！")
                 time.sleep(10)
-                watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
                 if watch_battery == '已连接':
                     time.sleep(1)
                     logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功

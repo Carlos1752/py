@@ -1,5 +1,5 @@
 @echo off&setlocal enabledelayedexpansion
-set ff=OTA.log
+set ff=*.log
 echo 正在统计&echo;
 set str=开始进行OTA压测 升级成功  升级失败
 set fileName=OTA_Result.txt

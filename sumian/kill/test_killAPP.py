@@ -12,6 +12,9 @@ from sumian.devicescan import *
 # log日志配置 logging.basicConfig(level=logging.DEBUG,filename='D:\py\sumian\kill\kliiAPP.log', format='%(asctime)s  --%(
 # filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #以基础配置打印出时间、行数、信息
 
+
+#dev测试版本APP包名是com.sumian.app,正式版本APP包名是com.sumian.sd
+
 # cf = './yaml/log.conf'  # 使用log.conf配置文件输出
 logging.config.fileConfig("./yaml/log.conf")
 # cf = configparser.RawConfigParser()
@@ -27,18 +30,25 @@ i = 0
 while i < cycle_index:
     os.system('adb shell settings get global bluetooth_on')  # 判断当前蓝牙开关状态
     time.sleep(2)
-    os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程
+    # os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程,测试版本APP
+    os.system('adb shell am force-stop com.sumian.sd')#正式版本APP
     logging.info('我被关闭啦')
     time.sleep(5)
-    os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP
+    # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP,测试版本APP
+    os.system('adb shell am start -n com.sumian.sd/com.sumian.sd.main.WelcomeActivity') #正式版本APP
+    time.sleep(5)
     logging.info('我又起来啦')
+    device(resourceId="com.sumian.sd:id/tb_diary").click()  # 点击设备Tab
+
+
     start = datetime.datetime.now()  # 计时开始
     # time.sleep(15)
     os.system('python G:\py\sumian\daojishi.py')#调用倒计时脚本，默认是15秒
 
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     try:
-        watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text() #正式版本APP
         logging.info('开始获取连接状态信息'+watch_battery)
         while watch_battery == '已连接':
             time.sleep(1)
@@ -51,7 +61,8 @@ while i < cycle_index:
             time.sleep(10)
             # os.system('python daojishi.py')
             os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
-            watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+            # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+            watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
             if watch_battery == '已连接':
                 print("等一下哦~")
                 time.sleep(1)
@@ -63,7 +74,8 @@ while i < cycle_index:
                 print("再等一下哈！")
                 time.sleep(10)
                 # os.system('python daojishi.py')
-                watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+                watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
                 if watch_battery == '已连接':
                     time.sleep(1)
                     logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
@@ -93,6 +105,7 @@ while i < cycle_index:
     except:
         logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
         break
+        #以上这步操作就是当每次开始时进行get连接状态信息不到时直接结束并流转到后续操作
 
     i += 1  # 测试次数+1
     logging.info('第' + str(i) + '次结束')
@@ -107,7 +120,7 @@ def start():
 
 start()
 print('运行完成')
-time.sleep(5)
+time.sleep(10)
 
 #调用发送邮件的的脚本
 os.system('python sendemailkill.py')

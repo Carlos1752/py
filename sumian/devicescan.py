@@ -10,7 +10,13 @@ devices = str(subprocess.check_output('adb devices')).replace(" ", "") \
 assert ut2.connect(devices), "请在cmd里输入adb devices确认设备是否存在"
 device = ut2.connect(devices)
 
-if devices != 'c7cff486' and devices != 'c23d076' and devices != '94a138a9' and devices != 'PZ8XW4SSOF69TKZH':  # nubia Z7mini手机,360N5，坚果手机
+
+# nubia Z7mini手机:c7cff486
+# 360N5：c23d076
+# 坚果手机：94a138a9
+# realme GT NEO:PZ8XW4SSOF69TKZH
+# 平板：0123456789ABCDEF
+if devices != 'c7cff486' and devices != 'c23d076' and devices != '94a138a9' and devices != 'PZ8XW4SSOF69TKZH' and devices != '0123456789ABCDEF':
     print("未连接指定设备")
     sys.exit()
     # 判断是否指定的设备存在，如果不一致就结束
