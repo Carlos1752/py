@@ -12,6 +12,12 @@ from sumian.devicescan import *
 # log日志配置 logging.basicConfig(level=logging.DEBUG,filename='D:\py\sumian\kill\kliiAPP.log', format='%(asctime)s  --%(
 # filename)s  --[line:%(lineno)d]  --%(levelname)s  --%(message)s')  #以基础配置打印出时间、行数、信息
 
+#思考，如何将一个脚本做成所有的APP通用，1、每次重连成功的判断节点
+#2、等待的时间
+# 3、下一步操作的顺序
+#4、log打印
+
+
 
 #dev测试版本APP包名是com.sumian.app,正式版本APP包名是com.sumian.sd
 
@@ -31,7 +37,7 @@ while i < cycle_index:
     os.system('adb shell settings get global bluetooth_on')  # 判断当前蓝牙开关状态
     time.sleep(2)
     # os.system('adb shell am force-stop com.sumian.app')  # 结束APP进程,测试版本APP
-    os.system('adb shell am force-stop com.sumian.sd')#正式版本APP
+    os.system('adb shell am force-stop com.sumian.sd')#结束APP进程，正式版本APP
     logging.info('我被关闭啦')
     time.sleep(5)
     # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP,测试版本APP
@@ -48,13 +54,22 @@ while i < cycle_index:
     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
     try:
         # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-        watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text() #正式版本APP
-        logging.info('开始获取连接状态信息'+watch_battery)
+        watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text() #获取监测仪设备连接状态
+        logging.info('当前获取的连接状态信息--'+watch_battery)
         while watch_battery == '已连接':
-            time.sleep(1)
-            logging.info('第' + str(i + 1) + '次：很快////' + watch_battery)  # log输出显示第几次连接成功
-            print("小哥哥好厉害哦~")
-            break
+            time.sleep(3)
+            watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()#获取速眠仪连接状态
+            logging.info(watch_battery2)#打印速眠仪当前连接状态
+            if watch_battery2 == '已连接':
+                logging.info('第' + str(i + 1) + '次：很快/' + '监测仪：' + watch_battery + '速眠仪：' + watch_battery2)  # log输出显示第几次连接成功
+                print("小哥哥好厉害哦~")
+                break
+
+            else:
+                time.sleep(2)
+                logging.info('第' + str(i + 1) + '次：速眠仪连接失败/'  + '监测仪：' + watch_battery + '速眠仪：' + watch_battery2)
+                print("速眠仪连不上了~+1")
+                break
 
         while watch_battery == '连接中':
             print("我还在连接中")
@@ -65,7 +80,9 @@ while i < cycle_index:
             watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
             if watch_battery == '已连接':
                 print("等一下哦~")
-                time.sleep(1)
+                time.sleep(3)
+                watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
+                logging.info(watch_battery2)  # 打印速眠仪当前连接状态
                 logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
                 break
 
@@ -77,7 +94,9 @@ while i < cycle_index:
                 # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
                 watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
                 if watch_battery == '已连接':
-                    time.sleep(1)
+                    time.sleep(3)
+                    watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
+                    logging.info(watch_battery2)  # 打印速眠仪当前连接状态
                     logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
                     print("太慢了小趴菜")
                     break
@@ -87,7 +106,8 @@ while i < cycle_index:
                     time.sleep(1)
                     os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
                     time.sleep(1)
-                    logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
+                    watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
+                    logging.info('第' + str(i + 1) + '次：失败////' + watch_battery +watch_battery2)  # 输出log判断第几次失败
                     print("唉呀妈呀连不上啦~")
                     # 失败后执行一次开关手机的蓝牙
                     os.system('adb shell service call statusbar 1')  # 下拉通知栏
@@ -120,8 +140,9 @@ def start():
 
 start()
 print('运行完成')
-time.sleep(10)
+time.sleep(20)
 
 #调用发送邮件的的脚本
 os.system('python sendemailkill.py')
 print("发送结束")
+
