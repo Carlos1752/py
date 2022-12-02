@@ -82,17 +82,64 @@ while i < cycle_index:
                 logging.info('第' + str(i + 1) + '次：/'  + '监测仪：' + watch_battery + ',速眠仪：' + watch_battery2)
                 print("速眠仪你不在吗~+1")
                 break
-        watch_battery3 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()   #获取连接中状态
-        while watch_battery3 == '监测仪连接中...':
+
+        # while watch_battery != '已连接':
+        #     print("我还在连接中")
+        #     time.sleep(10)
+        #     # os.system('python daojishi.py')
+        #     os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
+        #     # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        #     watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 获取监测仪设备连接状态
+        #     if watch_battery == '已连接':
+        #         print("等一下哦~")
+        #         time.sleep(3)
+        #         watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
+        #         logging.info(watch_battery2)  # 打印速眠仪当前连接状态
+        #         logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
+        #         break
+        #
+        #
+        #     else:
+        #         print("再等一下哈！")
+        #         time.sleep(10)
+        #         # os.system('python daojishi.py')
+        #         # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
+        #         watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 获取监测仪设备连接状态
+        #         if watch_battery == '已连接':
+        #             time.sleep(3)
+        #             watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
+        #             logging.info(watch_battery2)  # 打印速眠仪当前连接状态
+        #             logging.info('第' + str(i + 1) + '次：太慢了////' + watch_battery)  # log输出显示第几次连接成功
+        #             print("太慢了小趴菜")
+        #             break
+        #
+        #         else:
+        #             print("最后再努力一把~")
+        #             time.sleep(1)
+        #             os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
+        #             time.sleep(1)
+        #             os.system('adb shell input tap 561 1140')  # 点击连接失败弹框的确定按钮
+        #             time.sleep(1)
+        #             logging.info('第' + str(i + 1) + '次：失败////' + watch_battery)  # 输出log判断第几次失败
+        #             print("失败了")
+        #             # os.system('adb shell input keyevent 25') #按音量下键
+        #             # os.system('adb shell input keyevent 26') #按电源键
+        #             # time.sleep(2)
+        #             break  #失败一次，结束
+
+    except:
+        watch_battery4 = device(resourceId="com.sumian.sd:id/tv_no_device_title").get_text()  #获取连接状态
+        logging.info(watch_battery4)
+        while watch_battery4 == '监测仪连接中…':
             print("我还在连接中")
-            time.sleep(10)
-            # os.system('python daojishi.py')
+            time.sleep(5)
             os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
             # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-            watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
+            watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 获取监测仪设备连接状态
+
             if watch_battery == '已连接':
                 print("等一下哦~")
-                time.sleep(3)
+                time.sleep(2)
                 watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
                 logging.info(watch_battery2)  # 打印速眠仪当前连接状态
                 logging.info('第' + str(i + 1) + '次：比较慢////' + watch_battery)  # log输出显示第几次连接成功
@@ -102,9 +149,9 @@ while i < cycle_index:
             else:
                 print("再等一下哈！")
                 time.sleep(10)
-                # os.system('python daojishi.py')
+            # os.system('python daojishi.py')
                 # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
-                watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 正式版本APP
+                watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  # 获取监测仪设备连接状态
                 if watch_battery == '已连接':
                     time.sleep(3)
                     watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()  # 获取速眠仪连接状态
@@ -125,15 +172,11 @@ while i < cycle_index:
                     # os.system('adb shell input keyevent 25') #按音量下键
                     # os.system('adb shell input keyevent 26') #按电源键
                     # time.sleep(2)
-                    break  #失败一次，结束
+                    # break  #失败一次，结束
 
-    except:
-        time.sleep(10)
-        print("结束前多等一下吧")
-        watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text()  #获取连接状态
-        logging.info(watch_battery)
-        logging.info('哎呀你咋连不上了呢，sumianA APP已关闭')
-        break
+                    print("结束前多等一下吧")
+                    logging.info('哎呀你咋连不上了呢，sumian APP已关闭')
+                    break
 
 
     i += 1  # 测试次数+1
