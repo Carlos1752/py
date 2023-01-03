@@ -62,9 +62,9 @@ if __name__ == '__main__':
               '2、相关数据汇总请手动执行' \
               '3、有问题尽快反馈给开发大佬们哦'  # 邮件正文
     # 没有附件可以省略不写
-    file_path1 = r'G:\py\sumian\openBT\openBT.log'  # 添加附件的路径，公司电脑
+    file_path1 = r'G:\py\sumian\openBT\openBT1212.log'  # 添加附件的路径，公司电脑
     # file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT.log' #个人电脑路径
-    file_name1 = '运动log.log'  # 添加附件的名字
+    file_name1 = 'openbt.log'  # 添加附件的名字
 
     file_path2 = r'G:\py\sumian\openBT\openBT_Result.txt'  # 添加附件的路径
     # file_path2 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\openBT\openBT_Result.txt'#个人电脑路径
