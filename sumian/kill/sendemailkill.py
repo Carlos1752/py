@@ -65,7 +65,7 @@ if __name__ == '__main__':
               '3、有问题尽快反馈给开发大佬们哦'  # 邮件正文
 
     # 没有附件可以省略不写
-    file_path1 = r'G:\py\sumian\kill\killAPP.log'  # 添加附件1的路径,公司电脑
+    file_path1 = r'G:\py\sumian\kill\killAPP2023.log'  # 添加附件1的路径,公司电脑
     # file_path1 = r'D:\ProgramFiles\JetBrains\PycharmProjects\sumian\py\sumian\kill\killAPP.log'  # 自己惠普笔记本电脑路径
     file_name1 = 'kliiAPP.log'  # 添加附件1的名字
 

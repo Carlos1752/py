@@ -1,5 +1,5 @@
 @echo off&setlocal enabledelayedexpansion
-set ff=openBT1212.log
+set ff=openBT2023.log
 echo 正在统计&echo;
 set str=次结束  很快 失败  比较慢  太慢了
 set fileName=openBT_Result.txt

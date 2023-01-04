@@ -20,13 +20,14 @@ from sumian.devicescan import *
 
 
 #dev测试版本APP包名是com.sumian.app,正式版本APP包名是com.sumian.sd
+#以下是配置引用的路径
 
 # cf = './yaml/log.conf'  # 使用log.conf配置文件输出
 logging.config.fileConfig("./yaml/log.conf")
 # cf = configparser.RawConfigParser()
 logging = logging.getLogger()
 
-
+#开始前的信息打印，
 logging.info('>>>>开始进行杀进程回连压测>>>>')
 logging.info('总测试次数：' + str(cycle_index))  # 打印本次要测试总次数
 start1 = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -140,7 +141,8 @@ def start():
 
 start()
 print('运行完成')
-time.sleep(20)
+time.sleep(20)#等待20秒后再执行发送邮件的脚本
+
 
 #调用发送邮件的的脚本
 os.system('python sendemailkill.py')

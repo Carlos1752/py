@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/sumian/kill/killAPP_Result.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sumian/kill/killAPP_processLog.bat" charset="GBK" />
     <file url="file://$PROJECT_DIR$/sumian/openBT/openBT.log" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sumian/openBT/openBT_processLog.bat" charset="GBK" />
   </component>
 </project>
