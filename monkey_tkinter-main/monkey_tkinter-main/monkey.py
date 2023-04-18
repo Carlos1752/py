@@ -86,18 +86,32 @@ def runmonkey(parameter, file_path):
     for i in parameter['run_data_list']:
         run_data += i[0] + ' ' + i[1] + ' '
 
+
+
+    # if dicts['page'] == '':
+    #     monkeycmd1 = "adb -s {device} shell monkey " \
+    #             "--ignore-timeouts {crash} --kill-process-after-error {p1} " \
+    #             "--throttle {ms} -v -v -v {click} 2>{PATH_error} 1>{PATH_info}" \
+    #     .format(device=device, ms=parameter['ms'],
+    #             click=parameter['click'], p1=run_data, PATH_info=file_path[0], PATH_error=file_path[1],
+    #             crash=crash_if)
+    #     print('info：运行命令:{}\n'.format(monkeycmd1))
+
+    # else:
+    #     page = get_page()
+    #     print(page)
     monkeycmd = "adb -s {device} shell monkey -p {page} " \
-                "--ignore-timeouts {crash} --kill-process-after-error {p1} " \
-                "--throttle {ms} -v -v -v {click} 2>{PATH_error} 1>{PATH_info}" \
-        .format(device=device, page=parameter['page'], ms=parameter['ms'],
-                click=parameter['click'], p1=run_data, PATH_info=file_path[0], PATH_error=file_path[1],
-                crash=crash_if)
+        "--ignore-timeouts {crash} --kill-process-after-error {p1} " \
+        "--throttle {ms} -v -v -v {click} 2>{PATH_error} 1>{PATH_info}" \
+    .format(device=device, page=parameter['page'], ms=parameter['ms'],
+            click=parameter['click'], p1=run_data, PATH_info=file_path[0], PATH_error=file_path[1],
+            crash=crash_if)
     print('info：运行命令:{}\n'.format(monkeycmd))
 
-    # 查找安装包
+        # 查找安装包
     cad = 'adb -s {device} shell pm list package "|grep {page}"'.format(device=device, page=parameter['page'])
     pagename = os.popen(cad).read()
-    # 判断是否安装了用户输入的包名，没有则提示用户安装
+        # 判断是否安装了用户输入的包名，没有则提示用户安装
     if pagename:
         rune_state = True
         os.popen(monkeycmd)
@@ -111,8 +125,9 @@ def runmonkey(parameter, file_path):
             if ps is False:
                 rune_state = False
                 break
-    else:
-        raise NameError('ERROR: {}包名未找到，请确认包是否正常安装，或设备连接是否正常'.format(parameter['page']))
+        else:
+            raise NameError('ERROR: {}包名未找到，请确认包是否正常安装，或设备连接是否正常'.format(parameter['page']))
+
 
 
 # 查找monkey进程

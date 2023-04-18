@@ -1,0 +1,1415 @@
+:Monkey: seed=1682910882039 count=1000
+:AllowPackage: com.miui.home
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.contacts.activities.PeopleActivity (from package com.android.contacts)
+//   - NOT USING main activity com.miui.gallery.activity.HomePageActivity (from package com.miui.gallery)
+//   - NOT USING main activity com.miui.weather2.ActivityWeatherMain (from package com.miui.weather2)
+//   - NOT USING main activity com.android.settings.MiuiSettings (from package com.android.settings)
+//   - NOT USING main activity com.android.browser.BrowserActivity (from package com.android.browser)
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClockTabActivity (from package com.android.deskclock)
+//   - NOT USING main activity com.android.email.activity.Welcome (from package com.android.email)
+//   - NOT USING main activity com.android.fileexplorer.FileExplorerTabActivity (from package com.android.fileexplorer)
+//   - NOT USING main activity com.android.camera.Camera (from package com.android.camera)
+//   - NOT USING main activity com.miui.notes.ui.NotesListActivity (from package com.miui.notes)
+//   - NOT USING main activity com.miui.calculator.cal.CalculatorActivity (from package com.miui.calculator)
+//   - NOT USING main activity com.xiaomi.scanner.app.ScanActivity (from package com.xiaomi.scanner)
+//   - NOT USING main activity com.miui.player.pad.ui.MusicMainActivity (from package com.miui.player)
+//   - NOT USING main activity com.android.providers.downloads.ui.DownloadList (from package com.android.providers.downloads.ui)
+//   - NOT USING main activity com.miui.fmradio.FmActivity (from package com.miui.fm)
+//   - NOT USING main activity com.xiaomi.gamecenter.pad.MainTabActivity (from package com.xiaomi.gamecenter.pad)
+//   - NOT USING main activity com.xiaomi.market.ui.JoinActivity (from package com.xiaomi.market)
+//   - NOT USING main activity com.miui.video.HomeActivity (from package com.miui.video)
+//   - NOT USING main activity com.android.updater.MainActivity (from package com.android.updater)
+//   - NOT USING main activity com.miui.bugreport.ui.MainTabActivity (from package com.miui.bugreport)
+//   - NOT USING main activity cn.wps.moffice.documentmanager.PreStartActivity (from package cn.wps.moffice_eng)
+//   - NOT USING main activity org.qiyi.android.video.MainActivity (from package com.qiyi.video.pad)
+//   - NOT USING main activity com.cm.ota.watchota.MainActivity (from package com.cm.ota.watchota)
+//   - NOT USING main activity com.baidu.video.ui.WelcomActivity (from package com.baidu.video.pad)
+//   - NOT USING main activity com.was.api.WasActivity (from package es.brokenrul.eloh.mt)
+//   - NOT USING main activity com.ximigame.ddz.load.LogoXMActivity (from package com.xm.ddz.xiaomi.mi)
+//   - NOT USING main activity com.youku.pad.main.MainActivity3 (from package com.youku.pad)
+//   - NOT USING main activity com.dewmobile.kuaiya.act.DmStartupActivity (from package com.dewmobile.kuaiya)
+// Selecting main activities from category android.intent.category.MONKEY
+//   + Using main activity com.miui.home.launcher.Launcher (from package com.miui.home)
+//   - NOT USING main activity com.android.settings.applications.ManageApplicationsActivity (from package com.android.settings)
+//   - NOT USING main activity com.xiaomi.payment.MiliCenterEntryActivity (from package com.xiaomi.payment)
+// Seeded: 1682910882039
+// Event percentages:
+//   0: 45.0%
+//   1: 10.0%
+//   2: 0.9589041%
+//   3: 7.1917806%
+//   4: -0.0%
+//   5: 11.986301%
+//   6: 7.1917806%
+//   7: 10.0%
+//   8: 0.9589041%
+//   9: 0.47945204%
+//   10: 6.232877%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.miui.home/.launcher.Launcher;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 187    // KEYCODE_APP_SWITCH
+:Sending Key (ACTION_UP): 187    // KEYCODE_APP_SWITCH
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(1170.0,1493.0)
+:Sending Touch (ACTION_MOVE): 0:(1179.0427,1486.2621)
+:Sending Touch (ACTION_MOVE): 0:(1179.3043,1478.9698)
+:Sending Touch (ACTION_MOVE): 0:(1187.9554,1468.1698)
+:Sending Touch (ACTION_MOVE): 0:(1191.5074,1467.8815)
+:Sending Touch (ACTION_MOVE): 0:(1198.0244,1466.092)
+:Sending Touch (ACTION_MOVE): 0:(1201.4755,1465.5452)
+:Sending Touch (ACTION_MOVE): 0:(1208.4952,1450.8553)
+:Sending Touch (ACTION_UP): 0:(1218.7667,1442.3528)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(487.0,439.0)
+:Sending Touch (ACTION_UP): 0:(495.3315,445.65115)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1186.0,1854.0)
+:Sending Touch (ACTION_UP): 0:(1174.7725,1853.954)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(819.0,697.0)
+:Sending Touch (ACTION_MOVE): 0:(802.2119,698.3717)
+:Sending Touch (ACTION_MOVE): 0:(798.03253,699.481)
+:Sending Touch (ACTION_MOVE): 0:(779.4906,700.4922)
+:Sending Touch (ACTION_MOVE): 0:(773.1067,702.2202)
+:Sending Touch (ACTION_MOVE): 0:(760.05743,703.92426)
+:Sending Touch (ACTION_MOVE): 0:(742.6435,704.6493)
+:Sending Touch (ACTION_MOVE): 0:(728.60364,705.6904)
+:Sending Touch (ACTION_UP): 0:(711.9446,707.49384)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(481.0,1691.0)
+:Sending Touch (ACTION_UP): 0:(494.94803,1692.9377)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 124    // KEYCODE_INSERT
+:Sending Key (ACTION_UP): 124    // KEYCODE_INSERT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1457.0,813.0)
+:Sending Touch (ACTION_MOVE): 0:(1458.4452,807.73047)
+:Sending Touch (ACTION_UP): 0:(1463.9465,798.3057)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1512.0,449.0)
+:Sending Touch (ACTION_UP): 0:(1501.8574,449.25836)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(8.0,1557.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(26.90517,1553.3258) 1:(1.0,1446.0)
+:Sending Touch (ACTION_MOVE): 0:(38.785988,1539.6855) 1:(0.0,1454.6998)
+:Sending Touch (ACTION_MOVE): 0:(53.914547,1528.9664) 1:(0.0,1457.9607)
+:Sending Touch (ACTION_MOVE): 0:(78.368515,1519.9279) 1:(0.0,1465.8824)
+:Sending Touch (ACTION_MOVE): 0:(102.321686,1507.807) 1:(0.0,1469.3817)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(111.58356,1502.3612) 1:(0.0,1475.1917)
+:Sending Touch (ACTION_UP): 0:(126.35159,1499.9684)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1343.0,1586.0)
+:Sending Touch (ACTION_UP): 0:(1352.225,1588.9716)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(215.0,675.0)
+:Sending Touch (ACTION_UP): 0:(208.45593,676.3408)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(202.0,25.0)
+:Sending Touch (ACTION_UP): 0:(217.6831,22.866703)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(867.0,234.0)
+:Sending Touch (ACTION_UP): 0:(879.44794,249.23126)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(606.0,1232.0)
+:Sending Touch (ACTION_UP): 0:(598.5687,1251.3313)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 101    // KEYCODE_BUTTON_Z
+:Sending Key (ACTION_UP): 101    // KEYCODE_BUTTON_Z
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(446.0,129.0)
+:Sending Touch (ACTION_UP): 0:(452.52106,125.09003)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+    //[calendar_time:2023-04-18 18:08:17.447  system_uptime:634351287]
+    // Sending event #100
+Sleeping for 100 milliseconds
+    //[calendar_time:2023-04-18 18:08:17.589  system_uptime:634351388]
+    // Sending event #100
+:Sending Touch (ACTION_DOWN): 0:(1169.0,1729.0)
+:Sending Touch (ACTION_MOVE): 0:(1169.0099,1731.943)
+:Sending Touch (ACTION_MOVE): 0:(1169.0968,1734.9628)
+:Sending Touch (ACTION_MOVE): 0:(1169.109,1736.1178)
+:Sending Touch (ACTION_UP): 0:(1169.174,1737.236)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 129    // KEYCODE_MEDIA_EJECT
+:Sending Key (ACTION_UP): 129    // KEYCODE_MEDIA_EJECT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(141.0,863.0)
+:Sending Touch (ACTION_UP): 0:(148.70396,846.1388)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(664.0,1446.0)
+:Sending Touch (ACTION_MOVE): 0:(668.7745,1445.806)
+:Sending Touch (ACTION_MOVE): 0:(670.4075,1443.9021)
+:Sending Touch (ACTION_MOVE): 0:(671.00757,1435.985)
+:Sending Touch (ACTION_UP): 0:(672.52435,1433.6058)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(244.0,965.0)
+:Sending Touch (ACTION_UP): 0:(244.99675,971.15607)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.market/.ui.JoinActivity } in package com.xiaomi.market
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.market/.ui.JoinActivity } in package com.xiaomi.market
+:Sending Touch (ACTION_DOWN): 0:(389.0,760.0)
+:Sending Touch (ACTION_UP): 0:(381.903,751.27386)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1292.0,719.0)
+:Sending Touch (ACTION_UP): 0:(1291.6,728.04846)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(908.0,54.0)
+:Sending Touch (ACTION_UP): 0:(904.51196,62.89258)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(682.0,911.0)
+:Sending Touch (ACTION_UP): 0:(676.94037,906.8558)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.gamecenter.pad/.MainTabActivity } in package com.xiaomi.gamecenter.pad
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.gamecenter.pad/.MainTabActivity } in package com.xiaomi.gamecenter.pad
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(541.0,1769.0)
+:Sending Touch (ACTION_UP): 0:(541.9298,1766.0653)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(786.0,1315.0)
+:Sending Touch (ACTION_MOVE): 0:(768.56793,1311.719)
+:Sending Touch (ACTION_MOVE): 0:(764.00446,1309.7227)
+:Sending Touch (ACTION_MOVE): 0:(756.9164,1301.87)
+:Sending Touch (ACTION_MOVE): 0:(749.3875,1301.7385)
+:Sending Touch (ACTION_MOVE): 0:(742.0508,1293.4597)
+:Sending Touch (ACTION_UP): 0:(737.1304,1285.4272)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(950.0,1638.0)
+:Sending Touch (ACTION_UP): 0:(950.8801,1634.1404)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(126.0,1243.0)
+:Sending Touch (ACTION_UP): 0:(113.17937,1239.2396)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(656.0,733.0)
+:Sending Touch (ACTION_UP): 0:(649.5825,738.2629)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(951.0,1057.0)
+:Sending Touch (ACTION_UP): 0:(954.41364,1054.8755)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1093.0,2036.0)
+:Sending Touch (ACTION_UP): 0:(1093.6144,2040.4694)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(709.0,669.0)
+:Sending Touch (ACTION_UP): 0:(711.19464,676.3428)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(544.0,800.0)
+:Sending Touch (ACTION_UP): 0:(546.54553,796.0448)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 61    // KEYCODE_TAB
+:Sending Key (ACTION_UP): 61    // KEYCODE_TAB
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1161.0,1079.0)
+:Sending Touch (ACTION_UP): 0:(1163.1338,1073.9784)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(438.0,1117.0)
+:Sending Touch (ACTION_UP): 0:(442.40405,1124.5101)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(142.0,922.0)
+:Sending Touch (ACTION_MOVE): 0:(145.88542,917.1754)
+:Sending Touch (ACTION_MOVE): 0:(146.46826,911.8906)
+:Sending Touch (ACTION_MOVE): 0:(147.09183,909.9419)
+:Sending Touch (ACTION_MOVE): 0:(147.45993,908.41315)
+:Sending Touch (ACTION_MOVE): 0:(150.81415,907.26666)
+:Sending Touch (ACTION_UP): 0:(150.9849,907.20935)
+    //[calendar_time:2023-04-18 18:08:20.918  system_uptime:634354717]
+    // Sending event #200
+Sleeping for 100 milliseconds
+    //[calendar_time:2023-04-18 18:08:21.019  system_uptime:634354818]
+    // Sending event #200
+:Sending Touch (ACTION_DOWN): 0:(276.0,1490.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(258.03943,1509.5641) 1:(822.0,283.0)
+:Sending Touch (ACTION_MOVE): 0:(252.50319,1515.4263) 1:(817.5425,285.10303)
+:Sending Touch (ACTION_MOVE): 0:(243.12407,1519.1042) 1:(811.2922,286.3617)
+:Sending Touch (ACTION_MOVE): 0:(234.94695,1527.8615) 1:(805.3948,288.1789)
+:Sending Touch (ACTION_MOVE): 0:(224.41998,1533.1384) 1:(802.22015,289.128)
+:Sending Touch (ACTION_MOVE): 0:(218.23099,1546.3491) 1:(790.84467,290.27997)
+:Sending Touch (ACTION_MOVE): 0:(206.8852,1552.6417) 1:(771.3896,291.02518)
+:Sending Touch (ACTION_MOVE): 0:(190.90388,1565.6968) 1:(762.5314,291.5877)
+:Sending Touch (ACTION_MOVE): 0:(179.46521,1581.3883) 1:(761.69434,293.43152)
+:Sending Touch (ACTION_MOVE): 0:(166.59023,1584.1702) 1:(757.4065,293.5707)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(151.07185,1591.2666) 1:(737.6915,295.02185)
+:Sending Touch (ACTION_UP): 0:(138.20729,1598.5812)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(465.0,919.0)
+:Sending Touch (ACTION_UP): 0:(474.8966,916.752)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1214.0,1791.0)
+:Sending Touch (ACTION_MOVE): 0:(1215.7365,1795.3225)
+:Sending Touch (ACTION_MOVE): 0:(1216.5571,1800.6832)
+:Sending Touch (ACTION_MOVE): 0:(1219.4801,1802.7489)
+:Sending Touch (ACTION_MOVE): 0:(1220.0251,1811.6782)
+:Sending Touch (ACTION_MOVE): 0:(1221.5367,1819.1597)
+:Sending Touch (ACTION_MOVE): 0:(1222.1289,1823.9786)
+:Sending Touch (ACTION_MOVE): 0:(1224.2874,1825.0477)
+:Sending Touch (ACTION_MOVE): 0:(1226.4675,1833.9712)
+:Sending Touch (ACTION_MOVE): 0:(1229.9531,1841.5865)
+:Sending Touch (ACTION_UP): 0:(1231.0193,1844.6829)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(174.0,1689.0)
+:Sending Touch (ACTION_UP): 0:(177.49219,1692.677)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1040.0,1297.0)
+:Sending Touch (ACTION_UP): 0:(1041.1807,1298.1195)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.gamecenter.pad/.MainTabActivity } in package com.xiaomi.gamecenter.pad
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.xiaomi.gamecenter.pad/.MainTabActivity } in package com.xiaomi.gamecenter.pad
+:Sending Touch (ACTION_DOWN): 0:(1362.0,14.0)
+:Sending Touch (ACTION_UP): 0:(1360.7736,5.2789097)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(355.0,936.0)
+:Sending Touch (ACTION_UP): 0:(357.03015,934.7847)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1163.0,207.0)
+:Sending Touch (ACTION_UP): 0:(1161.2267,197.70944)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(538.0,51.0)
+:Sending Touch (ACTION_MOVE): 0:(542.58093,41.853462)
+:Sending Touch (ACTION_MOVE): 0:(563.1734,29.00727)
+:Sending Touch (ACTION_UP): 0:(585.19775,23.690466)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(75.0,691.0)
+:Sending Touch (ACTION_UP): 0:(55.729343,689.34033)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1507.0,1351.0)
+:Sending Touch (ACTION_UP): 0:(1509.1893,1344.5067)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(792.0,384.0)
+:Sending Touch (ACTION_UP): 0:(795.0327,385.26852)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1272.0,1310.0)
+:Sending Touch (ACTION_UP): 0:(1268.1194,1309.6438)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1162.0,147.0)
+:Sending Touch (ACTION_MOVE): 0:(1160.799,151.38094)
+:Sending Touch (ACTION_MOVE): 0:(1154.3351,156.08453)
+:Sending Touch (ACTION_MOVE): 0:(1140.2775,156.81165)
+:Sending Touch (ACTION_MOVE): 0:(1127.3116,164.11444)
+:Sending Touch (ACTION_MOVE): 0:(1125.7999,168.7193)
+:Sending Touch (ACTION_MOVE): 0:(1111.9358,174.04424)
+:Sending Touch (ACTION_MOVE): 0:(1107.3766,181.09276)
+:Sending Touch (ACTION_MOVE): 0:(1093.9144,186.05746)
+:Sending Touch (ACTION_UP): 0:(1087.1525,193.64154)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(539.0,1955.0)
+:Sending Touch (ACTION_UP): 0:(540.82776,1954.1355)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1147.0,1594.0)
+:Sending Touch (ACTION_MOVE): 0:(1146.975,1598.3157)
+:Sending Touch (ACTION_MOVE): 0:(1146.8696,1603.3832)
+:Sending Touch (ACTION_MOVE): 0:(1146.785,1606.8904)
+:Sending Touch (ACTION_MOVE): 0:(1146.7014,1612.4536)
+:Sending Touch (ACTION_UP): 0:(1146.5922,1614.2012)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(244.0,1612.0)
+:Sending Touch (ACTION_MOVE): 0:(258.34317,1604.1227)
+:Sending Touch (ACTION_MOVE): 0:(260.4328,1589.5167)
+:Sending Touch (ACTION_MOVE): 0:(275.32037,1588.3097)
+:Sending Touch (ACTION_MOVE): 0:(284.63467,1572.8485)
+:Sending Touch (ACTION_MOVE): 0:(295.5714,1568.7552)
+:Sending Touch (ACTION_MOVE): 0:(304.75882,1552.7471)
+:Sending Touch (ACTION_MOVE): 0:(306.31818,1551.9498)
+:Sending Touch (ACTION_UP): 0:(307.4686,1541.3818)
+Sleeping for 100 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.miui.home/.launcher.Launcher;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1349.0,2027.0)
+:Sending Touch (ACTION_UP): 0:(1350.0028,2032.6697)
+    //[calendar_time:2023-04-18 18:08:23.651  system_uptime:634357450]
+    // Sending event #300
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.camera/.Camera } in package com.android.camera
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.camera/.Camera } in package com.android.camera
+    //[calendar_time:2023-04-18 18:08:23.751  system_uptime:634357551]
+    // Sending event #300
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(865.0,1308.0)
+:Sending Touch (ACTION_UP): 0:(870.6638,1296.4064)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 72    // KEYCODE_RIGHT_BRACKET
+:Sending Key (ACTION_UP): 72    // KEYCODE_RIGHT_BRACKET
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(164.0,820.0)
+:Sending Touch (ACTION_MOVE): 0:(164.0734,823.3218)
+:Sending Touch (ACTION_MOVE): 0:(165.58974,831.69226)
+:Sending Touch (ACTION_MOVE): 0:(166.26501,851.0889)
+:Sending Touch (ACTION_MOVE): 0:(166.95265,855.7101)
+:Sending Touch (ACTION_UP): 0:(167.75023,856.0827)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(664.0,586.0)
+:Sending Touch (ACTION_UP): 0:(663.5303,578.666)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1339.0,1565.0)
+:Sending Touch (ACTION_UP): 0:(1329.4132,1564.2614)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1465.0,1142.0)
+:Sending Touch (ACTION_UP): 0:(1457.5413,1138.7681)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 74    // KEYCODE_SEMICOLON
+:Sending Key (ACTION_UP): 74    // KEYCODE_SEMICOLON
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+    // Rejecting start of Intent { act=android.search.action.GLOBAL_SEARCH cmp=com.android.quicksearchbox/.SearchActivity } in package com.android.quicksearchbox
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(101.0,1144.0)
+:Sending Touch (ACTION_MOVE): 0:(102.05247,1133.9618)
+:Sending Touch (ACTION_MOVE): 0:(102.79176,1124.9742)
+:Sending Touch (ACTION_MOVE): 0:(105.39407,1115.2919)
+:Sending Touch (ACTION_MOVE): 0:(107.28976,1108.5989)
+:Sending Touch (ACTION_MOVE): 0:(107.83581,1107.0696)
+:Sending Touch (ACTION_MOVE): 0:(108.26746,1101.5514)
+:Sending Touch (ACTION_MOVE): 0:(108.77132,1093.2592)
+:Sending Touch (ACTION_MOVE): 0:(109.66679,1084.3636)
+:Sending Touch (ACTION_MOVE): 0:(109.86459,1081.9929)
+:Sending Touch (ACTION_UP): 0:(111.01868,1075.3907)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(547.0,1987.0)
+:Sending Touch (ACTION_UP): 0:(537.48505,1984.6177)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(285.0,1170.0)
+:Sending Touch (ACTION_UP): 0:(292.76318,1162.412)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+:Sending Touch (ACTION_DOWN): 0:(962.0,345.0)
+:Sending Touch (ACTION_MOVE): 0:(956.53284,337.72552)
+:Sending Touch (ACTION_MOVE): 0:(947.76385,337.654)
+:Sending Touch (ACTION_MOVE): 0:(945.34033,334.9463)
+:Sending Touch (ACTION_MOVE): 0:(936.3149,332.82175)
+:Sending Touch (ACTION_MOVE): 0:(931.0231,331.31378)
+:Sending Touch (ACTION_MOVE): 0:(929.25024,327.4035)
+:Sending Touch (ACTION_MOVE): 0:(921.4162,319.42892)
+:Sending Touch (ACTION_MOVE): 0:(915.7859,314.7526)
+:Sending Touch (ACTION_UP): 0:(906.0003,310.21536)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1273.0,542.0)
+:Sending Touch (ACTION_UP): 0:(1286.1166,543.82526)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(249.0,13.0)
+:Sending Touch (ACTION_MOVE): 0:(248.77907,14.11252)
+:Sending Touch (ACTION_MOVE): 0:(248.69391,15.886646)
+:Sending Touch (ACTION_MOVE): 0:(248.52878,20.13471)
+:Sending Touch (ACTION_UP): 0:(248.4438,23.274649)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 102    // KEYCODE_BUTTON_L1
+:Sending Key (ACTION_UP): 102    // KEYCODE_BUTTON_L1
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(636.0,683.0)
+:Sending Touch (ACTION_MOVE): 0:(647.34564,660.7259)
+:Sending Touch (ACTION_UP): 0:(655.2911,645.094)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1499.0,1782.0)
+:Sending Touch (ACTION_MOVE): 0:(1507.5763,1777.7523)
+:Sending Touch (ACTION_MOVE): 0:(1527.9192,1776.8094)
+:Sending Touch (ACTION_MOVE): 0:(1536.0,1776.7657)
+:Sending Touch (ACTION_MOVE): 0:(1536.0,1770.0276)
+:Sending Touch (ACTION_MOVE): 0:(1536.0,1766.1403)
+:Sending Touch (ACTION_UP): 0:(1536.0,1758.6981)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1116.0,7.0)
+:Sending Touch (ACTION_MOVE): 0:(1110.2242,3.5692706)
+:Sending Touch (ACTION_MOVE): 0:(1107.0485,3.4055943)
+:Sending Touch (ACTION_MOVE): 0:(1101.0415,0.0)
+:Sending Touch (ACTION_MOVE): 0:(1100.4127,0.0)
+:Sending Touch (ACTION_UP): 0:(1096.4781,0.0)
+    //[calendar_time:2023-04-18 18:08:26.849  system_uptime:634360649]
+    // Sending event #400
+Sleeping for 100 milliseconds
+    //[calendar_time:2023-04-18 18:08:26.950  system_uptime:634360750]
+    // Sending event #400
+:Sending Touch (ACTION_DOWN): 0:(1291.0,1979.0)
+:Sending Touch (ACTION_MOVE): 0:(1286.8848,1976.9233)
+:Sending Touch (ACTION_MOVE): 0:(1276.4753,1975.6301)
+:Sending Touch (ACTION_MOVE): 0:(1275.5414,1974.9352)
+:Sending Touch (ACTION_MOVE): 0:(1259.4722,1973.3856)
+:Sending Touch (ACTION_MOVE): 0:(1252.9379,1973.1442)
+:Sending Touch (ACTION_MOVE): 0:(1239.4097,1971.8892)
+:Sending Touch (ACTION_MOVE): 0:(1238.0784,1970.4092)
+:Sending Touch (ACTION_MOVE): 0:(1226.7611,1970.3447)
+:Sending Touch (ACTION_MOVE): 0:(1222.1104,1968.6556)
+:Sending Touch (ACTION_UP): 0:(1220.0361,1967.3295)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1482.0,1411.0)
+:Sending Touch (ACTION_UP): 0:(1488.8289,1429.1343)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1232.0,521.0)
+:Sending Touch (ACTION_UP): 0:(1228.4666,535.76373)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(899.0,914.0)
+:Sending Touch (ACTION_UP): 0:(879.4469,905.23364)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,4.0)
+:Sending Touch (ACTION_DOWN): 0:(235.0,228.0)
+:Sending Touch (ACTION_UP): 0:(229.21391,236.0074)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+:Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1233.0,1433.0)
+:Sending Touch (ACTION_UP): 0:(1233.4672,1424.4669)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(815.0,2036.0)
+:Sending Touch (ACTION_UP): 0:(811.6532,2035.172)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 144    // KEYCODE_NUMPAD_0
+:Sending Key (ACTION_UP): 144    // KEYCODE_NUMPAD_0
+Sleeping for 100 milliseconds
+:Sending Flip keyboardOpen=false
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(912.0,1100.0)
+:Sending Touch (ACTION_UP): 0:(917.13403,1105.6249)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(95.0,672.0)
+:Sending Touch (ACTION_UP): 0:(95.80186,673.2383)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(127.0,625.0)
+:Sending Touch (ACTION_UP): 0:(115.63376,620.111)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1454.0,177.0)
+:Sending Touch (ACTION_UP): 0:(1456.069,165.30536)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(119.0,935.0)
+:Sending Touch (ACTION_UP): 0:(127.205574,934.6597)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(507.0,214.0)
+:Sending Touch (ACTION_UP): 0:(505.3481,213.50194)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1163.0,1484.0)
+:Sending Touch (ACTION_MOVE): 0:(1168.849,1502.5454)
+    //[calendar_time:2023-04-18 18:08:30.678  system_uptime:634364478]
+    // Sending event #500
+:Sending Touch (ACTION_MOVE): 0:(1189.5903,1522.332)
+:Sending Touch (ACTION_MOVE): 0:(1196.0337,1530.9269)
+:Sending Touch (ACTION_MOVE): 0:(1196.6414,1541.9115)
+:Sending Touch (ACTION_MOVE): 0:(1214.3638,1549.5964)
+:Sending Touch (ACTION_UP): 0:(1220.5569,1571.0236)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(769.0,30.0)
+:Sending Touch (ACTION_UP): 0:(769.4907,12.695602)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(898.0,319.0)
+:Sending Touch (ACTION_UP): 0:(884.1243,325.81958)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1449.0,868.0)
+:Sending Touch (ACTION_UP): 0:(1452.4668,884.0961)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(111.0,117.0)
+:Sending Touch (ACTION_UP): 0:(112.46625,108.291565)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1197.0,1103.0)
+:Sending Touch (ACTION_UP): 0:(1187.8932,1099.2356)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(125.0,899.0)
+:Sending Touch (ACTION_UP): 0:(125.68556,903.16516)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(398.0,1913.0)
+:Sending Touch (ACTION_MOVE): 0:(378.7236,1905.7179)
+:Sending Touch (ACTION_MOVE): 0:(358.73532,1898.907)
+:Sending Touch (ACTION_MOVE): 0:(352.495,1891.0466)
+:Sending Touch (ACTION_MOVE): 0:(343.54907,1886.3052)
+:Sending Touch (ACTION_MOVE): 0:(332.47675,1882.9822)
+:Sending Touch (ACTION_MOVE): 0:(327.02765,1878.4257)
+:Sending Touch (ACTION_MOVE): 0:(318.47263,1874.1544)
+:Sending Touch (ACTION_MOVE): 0:(308.43106,1870.3726)
+:Sending Touch (ACTION_UP): 0:(296.48398,1869.2771)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(522.0,1989.0)
+:Sending Touch (ACTION_MOVE): 0:(519.46704,1987.9055)
+:Sending Touch (ACTION_MOVE): 0:(516.57855,1984.7987)
+:Sending Touch (ACTION_MOVE): 0:(509.55423,1981.375)
+:Sending Touch (ACTION_UP): 0:(501.6448,1977.0112)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+:Sending Touch (ACTION_DOWN): 0:(261.0,1512.0)
+:Sending Touch (ACTION_MOVE): 0:(260.0862,1502.9149)
+:Sending Touch (ACTION_MOVE): 0:(258.84592,1493.6688)
+:Sending Touch (ACTION_MOVE): 0:(257.0027,1490.7463)
+:Sending Touch (ACTION_MOVE): 0:(254.60162,1481.2975)
+:Sending Touch (ACTION_MOVE): 0:(253.68268,1475.6832)
+:Sending Touch (ACTION_MOVE): 0:(252.39435,1467.3185)
+:Sending Touch (ACTION_MOVE): 0:(251.16176,1462.318)
+:Sending Touch (ACTION_UP): 0:(247.87836,1454.5847)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(169.0,966.0)
+:Sending Touch (ACTION_UP): 0:(182.87561,967.8185)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(192.0,1555.0)
+:Sending Touch (ACTION_UP): 0:(189.24556,1556.9338)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(902.0,1619.0)
+:Sending Touch (ACTION_UP): 0:(912.7471,1608.5311)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(306.0,1873.0)
+:Sending Touch (ACTION_MOVE): 0:(305.32047,1869.062)
+:Sending Touch (ACTION_MOVE): 0:(283.73944,1868.353)
+:Sending Touch (ACTION_MOVE): 0:(269.45386,1865.2311)
+:Sending Touch (ACTION_MOVE): 0:(268.21088,1862.4741)
+:Sending Touch (ACTION_MOVE): 0:(266.74646,1861.275)
+:Sending Touch (ACTION_MOVE): 0:(248.29666,1858.4165)
+:Sending Touch (ACTION_MOVE): 0:(227.81741,1855.8527)
+:Sending Touch (ACTION_MOVE): 0:(212.5965,1854.5226)
+:Sending Touch (ACTION_MOVE): 0:(191.08044,1854.0208)
+:Sending Touch (ACTION_UP): 0:(187.30339,1852.5385)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(16.0,134.0)
+:Sending Touch (ACTION_UP): 0:(0.0,135.42413)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,2010.0)
+:Sending Touch (ACTION_UP): 0:(186.70757,2016.5938)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.gallery/.activity.HomePageActivity } in package com.miui.gallery
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.gallery/.activity.HomePageActivity } in package com.miui.gallery
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1190.0,1815.0)
+:Sending Touch (ACTION_UP): 0:(1193.2394,1812.3258)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+    //[calendar_time:2023-04-18 18:08:33.787  system_uptime:634367586]
+    // Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(383.0,179.0)
+:Sending Touch (ACTION_MOVE): 0:(388.11264,182.85208)
+:Sending Touch (ACTION_MOVE): 0:(391.41525,184.41708)
+:Sending Touch (ACTION_MOVE): 0:(407.1178,190.23473)
+:Sending Touch (ACTION_MOVE): 0:(408.9135,197.8675)
+:Sending Touch (ACTION_MOVE): 0:(414.38058,199.04768)
+:Sending Touch (ACTION_MOVE): 0:(426.3108,201.44666)
+:Sending Touch (ACTION_MOVE): 0:(436.9279,214.10924)
+:Sending Touch (ACTION_MOVE): 0:(451.80765,222.11894)
+:Sending Touch (ACTION_UP): 0:(453.3973,234.9637)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-2.0)
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(140.0,1195.0)
+:Sending Touch (ACTION_UP): 0:(136.94656,1178.7454)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(1442.0,411.0)
+:Sending Touch (ACTION_UP): 0:(1442.6371,426.14575)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(353.0,95.0)
+:Sending Touch (ACTION_UP): 0:(360.78867,118.894905)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,625.0)
+:Sending Touch (ACTION_UP): 0:(152.73259,612.44806)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(395.0,40.0)
+:Sending Touch (ACTION_MOVE): 0:(393.55774,38.996544)
+:Sending Touch (ACTION_MOVE): 0:(390.31982,38.019886)
+:Sending Touch (ACTION_MOVE): 0:(387.56516,36.76928)
+:Sending Touch (ACTION_MOVE): 0:(386.0771,35.004784)
+:Sending Touch (ACTION_MOVE): 0:(384.71298,34.76756)
+:Sending Touch (ACTION_UP): 0:(383.90567,34.044727)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1422.0,1038.0)
+:Sending Touch (ACTION_MOVE): 0:(1422.6665,1050.98)
+:Sending Touch (ACTION_MOVE): 0:(1431.7751,1059.0042)
+:Sending Touch (ACTION_MOVE): 0:(1432.1593,1059.682)
+:Sending Touch (ACTION_MOVE): 0:(1434.6301,1070.8937)
+:Sending Touch (ACTION_MOVE): 0:(1445.1543,1077.0625)
+:Sending Touch (ACTION_UP): 0:(1454.2914,1097.6042)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(332.0,1839.0)
+:Sending Touch (ACTION_MOVE): 0:(330.65128,1839.2955)
+:Sending Touch (ACTION_MOVE): 0:(328.45236,1840.171)
+:Sending Touch (ACTION_MOVE): 0:(322.60944,1840.3853)
+:Sending Touch (ACTION_MOVE): 0:(318.13794,1841.1779)
+:Sending Touch (ACTION_MOVE): 0:(314.35928,1841.9423)
+:Sending Touch (ACTION_MOVE): 0:(309.35385,1842.4268)
+:Sending Touch (ACTION_UP): 0:(306.82095,1842.9972)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(879.0,600.0)
+:Sending Touch (ACTION_UP): 0:(879.1626,583.2971)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(680.0,41.0)
+:Sending Touch (ACTION_MOVE): 0:(671.1329,28.191284)
+:Sending Touch (ACTION_UP): 0:(668.0069,15.964436)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(530.0,1528.0)
+:Sending Touch (ACTION_POINTER_DOWN 1): 0:(530.2101,1536.0032) 1:(1396.0,647.0)
+:Sending Touch (ACTION_MOVE): 0:(536.90955,1544.2032) 1:(1394.3373,648.14764)
+:Sending Touch (ACTION_POINTER_UP 1): 0:(542.9403,1544.338) 1:(1393.3632,659.6587)
+:Sending Touch (ACTION_UP): 0:(545.9338,1547.9327)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(411.0,122.0)
+:Sending Touch (ACTION_UP): 0:(413.0753,125.27995)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 210    // KEYCODE_CALCULATOR
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.calculator/.cal.CalculatorActivity } in package com.miui.calculator
+    // Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.miui.calculator/.cal.CalculatorActivity } in package com.miui.calculator
+:Sending Key (ACTION_UP): 210    // KEYCODE_CALCULATOR
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(859.0,15.0)
+:Sending Touch (ACTION_UP): 0:(850.25745,0.0)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 117    // KEYCODE_META_LEFT
+:Sending Key (ACTION_UP): 117    // KEYCODE_META_LEFT
+    //[calendar_time:2023-04-18 18:08:35.983  system_uptime:634369782]
+    // Sending event #700
+Sleeping for 100 milliseconds
+    //[calendar_time:2023-04-18 18:08:36.084  system_uptime:634369883]
+    // Sending event #700
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Key (ACTION_DOWN): 209    // KEYCODE_MUSIC
+:Sending Key (ACTION_UP): 209    // KEYCODE_MUSIC
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Touch (ACTION_DOWN): 0:(571.0,1872.0)
+:Sending Touch (ACTION_MOVE): 0:(570.23267,1879.3115)
+:Sending Touch (ACTION_MOVE): 0:(560.1676,1886.2859)
+:Sending Touch (ACTION_MOVE): 0:(550.8297,1891.7948)
+:Sending Touch (ACTION_MOVE): 0:(549.3446,1899.5057)
+:Sending Touch (ACTION_MOVE): 0:(540.83716,1899.8716)
+:Sending Touch (ACTION_MOVE): 0:(533.032,1902.1858)
+:Sending Touch (ACTION_MOVE): 0:(532.6898,1906.3788)
+:Sending Touch (ACTION_UP): 0:(528.3396,1914.4939)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1419.0,1201.0)
+:Sending Touch (ACTION_UP): 0:(1426.3303,1205.4379)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1154.0,1941.0)
+:Sending Touch (ACTION_UP): 0:(1155.7593,1960.0259)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1362.0,1049.0)
+:Sending Touch (ACTION_UP): 0:(1362.3835,1052.2008)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1336.0,529.0)
+:Sending Touch (ACTION_UP): 0:(1336.0011,527.80164)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(103.0,851.0)
+:Sending Touch (ACTION_UP): 0:(104.1562,852.25214)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(358.0,1480.0)
+:Sending Touch (ACTION_UP): 0:(353.47107,1474.631)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(11.0,476.0)
+:Sending Touch (ACTION_MOVE): 0:(18.648493,481.85986)
+:Sending Touch (ACTION_MOVE): 0:(22.999638,490.46417)
+:Sending Touch (ACTION_MOVE): 0:(40.310356,504.16937)
+:Sending Touch (ACTION_MOVE): 0:(41.606464,509.73087)
+:Sending Touch (ACTION_MOVE): 0:(47.698948,517.12396)
+:Sending Touch (ACTION_MOVE): 0:(62.817326,529.8663)
+:Sending Touch (ACTION_MOVE): 0:(72.17553,546.956)
+:Sending Touch (ACTION_MOVE): 0:(77.36614,548.1894)
+:Sending Touch (ACTION_MOVE): 0:(94.866844,558.7167)
+:Sending Touch (ACTION_UP): 0:(110.48105,570.6512)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(659.0,1621.0)
+:Sending Touch (ACTION_UP): 0:(672.8965,1617.3098)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1517.0,64.0)
+:Sending Touch (ACTION_UP): 0:(1519.0989,64.235916)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(615.0,467.0)
+:Sending Touch (ACTION_MOVE): 0:(615.3441,453.7021)
+:Sending Touch (ACTION_MOVE): 0:(616.3165,443.9972)
+:Sending Touch (ACTION_MOVE): 0:(616.55145,436.21292)
+:Sending Touch (ACTION_MOVE): 0:(617.7079,422.77756)
+:Sending Touch (ACTION_UP): 0:(618.53125,417.54428)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 220    // KEYCODE_BRIGHTNESS_DOWN
+:Sending Key (ACTION_UP): 220    // KEYCODE_BRIGHTNESS_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(798.0,844.0)
+:Sending Touch (ACTION_UP): 0:(812.84265,864.41144)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(118.0,1646.0)
+:Sending Touch (ACTION_UP): 0:(110.36494,1638.1752)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(907.0,1173.0)
+:Sending Touch (ACTION_UP): 0:(903.59186,1176.1361)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.miui.player/.pad.ui.MusicMainActivity } in package com.miui.player
+:Sending Touch (ACTION_DOWN): 0:(447.0,684.0)
+:Sending Touch (ACTION_UP): 0:(440.56433,680.90393)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-3.0)
+    //[calendar_time:2023-04-18 18:08:38.472  system_uptime:634372271]
+    // Sending event #800
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-5.0)
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(359.0,378.0)
+:Sending Touch (ACTION_MOVE): 0:(356.90292,383.85007)
+:Sending Touch (ACTION_MOVE): 0:(354.18527,390.2413)
+:Sending Touch (ACTION_UP): 0:(343.11853,400.45694)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(1073.0,701.0)
+:Sending Touch (ACTION_UP): 0:(1079.413,687.6302)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(254.0,1925.0)
+:Sending Touch (ACTION_UP): 0:(241.28607,1907.1089)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,4.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(501.0,1881.0)
+:Sending Touch (ACTION_UP): 0:(497.07025,1894.5643)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1018.0,1305.0)
+:Sending Touch (ACTION_UP): 0:(1034.1567,1308.4889)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(748.0,1615.0)
+:Sending Touch (ACTION_UP): 0:(740.90985,1610.6543)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 197    // KEYCODE_BUTTON_10
+:Sending Key (ACTION_UP): 197    // KEYCODE_BUTTON_10
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_DOWN): 0:(0.0,0.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(796.0,785.0)
+:Sending Touch (ACTION_UP): 0:(797.5738,798.591)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(251.0,978.0)
+:Sending Touch (ACTION_UP): 0:(251.80635,974.7308)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(526.0,1034.0)
+:Sending Touch (ACTION_UP): 0:(526.1362,1032.5399)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,2.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,1.0)
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(313.0,1808.0)
+:Sending Touch (ACTION_UP): 0:(307.42065,1805.5831)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(946.0,371.0)
+:Sending Touch (ACTION_UP): 0:(942.284,353.15112)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.miui.calculator/.cal.CalculatorActivity } in package com.miui.calculator
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.miui.calculator/.cal.CalculatorActivity } in package com.miui.calculator
+:Sending Touch (ACTION_DOWN): 0:(1535.0,904.0)
+:Sending Touch (ACTION_UP): 0:(1536.0,900.05426)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(479.0,1045.0)
+:Sending Touch (ACTION_UP): 0:(473.34998,1026.5192)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(933.0,137.0)
+:Sending Touch (ACTION_UP): 0:(931.7802,132.70557)
+Sleeping for 100 milliseconds
+:Sending Flip keyboardOpen=true
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+    //[calendar_time:2023-04-18 18:08:41.701  system_uptime:634375500]
+    // Sending event #900
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,0.0)
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(777.0,909.0)
+:Sending Touch (ACTION_UP): 0:(793.5416,911.0602)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1312.0,374.0)
+:Sending Touch (ACTION_UP): 0:(1314.027,383.84277)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1505.0,520.0)
+:Sending Touch (ACTION_MOVE): 0:(1493.2585,522.31036)
+:Sending Touch (ACTION_MOVE): 0:(1486.5874,544.26385)
+:Sending Touch (ACTION_MOVE): 0:(1470.7712,565.5382)
+:Sending Touch (ACTION_MOVE): 0:(1469.7312,574.2006)
+:Sending Touch (ACTION_MOVE): 0:(1464.2621,591.38727)
+:Sending Touch (ACTION_MOVE): 0:(1449.4884,605.2103)
+:Sending Touch (ACTION_MOVE): 0:(1443.4995,627.0925)
+:Sending Touch (ACTION_MOVE): 0:(1430.6061,648.565)
+:Sending Touch (ACTION_MOVE): 0:(1426.6571,648.68335)
+:Sending Touch (ACTION_UP): 0:(1413.6385,662.5693)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1294.0,1105.0)
+:Sending Touch (ACTION_UP): 0:(1273.0441,1102.4558)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(565.0,1030.0)
+:Sending Touch (ACTION_UP): 0:(565.0979,1035.3383)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(372.0,27.0)
+:Sending Touch (ACTION_UP): 0:(382.11282,43.30691)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(287.0,671.0)
+:Sending Touch (ACTION_UP): 0:(284.3217,670.61017)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(989.0,471.0)
+:Sending Touch (ACTION_UP): 0:(982.76184,491.94464)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1470.0,429.0)
+:Sending Touch (ACTION_MOVE): 0:(1466.7751,422.886)
+:Sending Touch (ACTION_MOVE): 0:(1455.7737,416.95062)
+:Sending Touch (ACTION_MOVE): 0:(1448.0918,414.68677)
+:Sending Touch (ACTION_MOVE): 0:(1442.4495,407.34125)
+:Sending Touch (ACTION_UP): 0:(1435.2455,389.274)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(387.0,739.0)
+:Sending Touch (ACTION_UP): 0:(388.49765,744.17645)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1247.0,1400.0)
+:Sending Touch (ACTION_MOVE): 0:(1247.0028,1382.795)
+:Sending Touch (ACTION_MOVE): 0:(1247.6837,1376.0748)
+:Sending Touch (ACTION_MOVE): 0:(1248.8296,1367.864)
+:Sending Touch (ACTION_MOVE): 0:(1249.571,1357.1196)
+:Sending Touch (ACTION_MOVE): 0:(1250.1243,1352.2943)
+:Sending Touch (ACTION_MOVE): 0:(1250.3544,1347.9792)
+:Sending Touch (ACTION_UP): 0:(1251.5798,1346.027)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,0.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,2.0)
+:Sending Key (ACTION_DOWN): 90    // KEYCODE_MEDIA_FAST_FORWARD
+:Sending Key (ACTION_UP): 90    // KEYCODE_MEDIA_FAST_FORWARD
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(975.0,1455.0)
+:Sending Touch (ACTION_UP): 0:(979.19385,1455.717)
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 61    // KEYCODE_TAB
+:Sending Key (ACTION_UP): 61    // KEYCODE_TAB
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 25    // KEYCODE_VOLUME_DOWN
+:Sending Key (ACTION_UP): 25    // KEYCODE_VOLUME_DOWN
+Sleeping for 100 milliseconds
+:Sending Key (ACTION_DOWN): 3    // KEYCODE_HOME
+:Sending Key (ACTION_UP): 3    // KEYCODE_HOME
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] cmp=com.miui.home/.launcher.Launcher } in package com.miui.home
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1213.0,1126.0)
+:Sending Touch (ACTION_UP): 0:(1228.0468,1122.0653)
+Sleeping for 100 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(485.0,797.0)
+:Sending Touch (ACTION_UP): 0:(485.45377,797.5874)
+Sleeping for 100 milliseconds
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,1.0)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,-5.0)
+:Sending Trackball (ACTION_MOVE): 0:(-5.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-1.0)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-2.0,3.0)
+:Sending Touch (ACTION_DOWN): 0:(409.0,1035.0)
+:Sending Touch (ACTION_UP): 0:(409.33832,1018.89325)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.deskclock/.DeskClockTabActivity } in package com.android.deskclock
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Touch (ACTION_DOWN): 0:(213.0,1925.0)
+:Sending Touch (ACTION_UP): 0:(213.50034,1938.3295)
+Sleeping for 100 milliseconds
+    // Rejecting start of Intent { act=android.intent.action.MAIN cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Events injected: 1000
+:Sending rotation degree=0, persist=false
+:Dropped: keys=1 pointers=4 trackballs=0 flips=0 rotations=0
+## Network stats: elapsed time=30655ms (0ms mobile, 0ms wifi, 30655ms not connected)
+// Monkey finished

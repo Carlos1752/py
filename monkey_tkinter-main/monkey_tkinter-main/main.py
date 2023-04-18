@@ -46,6 +46,8 @@ class MainPage:
         self.run_option_menu_list = []  # 运行参数
         self.percentage_option_menu_list = []  # 运行参数百分比值
         self.label_title = []  # 控件列表
+        # self.CHCKKEY = "@@@"
+        # self.MAXSIZE = 10000
 
     # 所有按钮控件
     def main_page(self):
@@ -280,7 +282,7 @@ class MainPage:
             if k not in ['run_data_list', 'crash_is']:
                 # 如果value为空，那么修改指标变量为False.并且弹出提示不能为空。并且退出所有循环。
                 if v.strip() == '':
-                    tkinter.messagebox.showinfo("提示", '{}不能为空'.format(k))
+                    tkinter.messagebox.showinfo("提示", '{}不能为0'.format(k))
                     return False, ''
             else:
                 continue
@@ -299,7 +301,7 @@ class MainPage:
             print('开始计时')
             while True:
                 times = round(time.time() - start_time, 0)
-                time.sleep(1)
+                time.sleep(5)
                 self.count_time['text'] = times
                 if monkey.rune_state is False:
                     print('退出计时')
