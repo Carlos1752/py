@@ -162,7 +162,7 @@ class MainPage:
         需求:实现点击添加按钮新增运行参数控件
         修改:把运行参数控件的所有下拉控件添加到一个列表,实现增删控件需求
         '''
-        if self.num < 5:
+        if self.num < 6:
             # 控件名称数字&y轴位置
             self.num += 1
             self.optionmenu_y += 75
