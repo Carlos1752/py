@@ -3,7 +3,7 @@ import subprocess
 import sys
 import uiautomator2 as ut2
 import logging
-
+#本脚本用于进行扫描手机是否存在且是否为白名单中的手机
 # 连接手机 ADB
 devices = str(subprocess.check_output('adb devices')).replace(" ", "") \
     .replace("b'Listofdevicesattached", "").replace("device", "").replace("\\", "").replace("rn", "").replace("t'", "")

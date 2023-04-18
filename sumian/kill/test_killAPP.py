@@ -43,9 +43,11 @@ while i < cycle_index:
     time.sleep(5)
     # os.system('adb shell am start -n com.sumian.app/com.sumian.sd.main.WelcomeActivity')  # 启动APP,测试版本APP
     os.system('adb shell am start -n com.sumian.sd/com.sumian.sd.main.WelcomeActivity') #正式版本APP
-    time.sleep(5)
+    time.sleep(10)
     logging.info('我又起来啦')
+    time.sleep(5)
     device(resourceId="com.sumian.sd:id/tb_diary").click()  # 点击设备Tab
+    os.system('adb shell input tap 960 525')  # 操作一次点击关闭，如果有的话就会生效
 
 
     start = datetime.datetime.now()  # 计时开始
@@ -56,7 +58,7 @@ while i < cycle_index:
     try:
         # watch_battery = device(resourceId="com.sumian.app:id/tv_monitor_status").get_text()  # 获取设备连接状态
         watch_battery = device(resourceId="com.sumian.sd:id/tv_monitor_status").get_text() #获取监测仪设备连接状态
-        logging.info('当前获取的连接状态信息--'+watch_battery)
+        logging.info('当前获取的连接状态信息--'+ watch_battery)
         while watch_battery == '已连接':
             time.sleep(3)
             watch_battery2 = device(resourceId="com.sumian.sd:id/tv_sleep_master_status").get_text()#获取速眠仪连接状态
@@ -66,11 +68,11 @@ while i < cycle_index:
                 print("小哥哥好厉害哦~")
                 break
 
-            else:
-                time.sleep(2)
-                logging.info('第' + str(i + 1) + '次：速眠仪连接失败/'  + '监测仪：' + watch_battery + '速眠仪：' + watch_battery2)
-                print("速眠仪连不上了~+1")
-                break
+            # else:
+            #     time.sleep(2)
+            #     logging.info('第' + str(i + 1) + '次：速眠仪连接失败/'  + '监测仪：' + watch_battery + '速眠仪：' + watch_battery2)
+            #     print("速眠仪连不上了~+1")
+            #     break
 
         while watch_battery == '连接中':
             print("我还在连接中")
